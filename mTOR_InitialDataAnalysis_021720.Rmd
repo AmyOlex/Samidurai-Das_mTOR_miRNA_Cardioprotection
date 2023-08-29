@@ -1,0 +1,403 @@
+---
+title: "mTOR miRNA Initial Data Analysis and Differential Expression Results"
+author: "Amy Olex"
+date: "2/17/2020"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.height=50, fig.width=10)
+
+library(kableExtra)
+library(ComplexHeatmap)
+library(gplots)
+
+setwd("~/Desktop/CCTR_Git_Repos/ASamidurai_mTOR")
+```
+# Project Goals
+
+This project is studying the role of epigenetic regulation by microRNAs in diabetes mellitus (DM) during ischemia/reperfusion (I/R) injury.  During I/R, mTOR is active and is associated with Acute Myocardial Infarction (AMI).  The suppression of mTOR by Rapamycin (RAPA) during I/R provides cardioprotection.  This study is looking at the role miRNAs play during I/R with and without RAPA treatment. The primary goal of this analysis is to perform a differential expression analysis of the miRNA array data followed by a target analysis to see which genes these miRNAs are targeting.
+
+# Data Set Description
+
+MicroRNA microarrays were run by LCSciences on their $\mu$Paraflo technology with the target miRNA probes being a mixture of Rabbit and Rat miRNAs.  A total of 3 rabbit heart samples were pooled for each of the 3 conditions (DM, DM+I/R, DM+I/R+RAPA).  According to the LCSciences data provided to me, 3 microRNA chips were run, 1 for each condition. On each chip, there are 4 probes that target each miRNA, which were treated as technical replicates by LCSciences. A summary of this experimental design is below: 
+
+ * 3 conditions: DM, DM+I/R, DM+I/R+RAPA
+ * 3 rabbit heart samples pooled per condition
+ * 3 microarray chips, one for each condition (DM, DM+I/R, DM+I/R+RAPA)
+ * 4 duplicate probes per miRNA targeted (treated as technical replicates)
+
+*<p style="color:red">WARNING: Replicate probes on the same chip are always used to obtain a single mean signal intensity for that condition [1]. It is not statistically valid to perform a differential expression analysis using technical replicates.  Generally, at least 3 biological replicates are required for this type of analysis.</p>*
+
+[1]  Tang X, Gal J, Zhuang X et al. A simple array platform for microRNA analysis and its application in mouse tissues. RNA 2007;13:1803–22.
+
+# LCSciences Analysis
+
+LCSciences has already pre-processed the data, including background subtraction and normalization.  The also did a "Standard" and "In-Depth" analysis of the array data. Using the normalized data, LCSciences calculated the mean signal intensity for each miRNA using the 4 duplicate probes on each array. They also calculated differential expression p-values by treating these duplicated probes as technical replicates, but did not calculate fold changes. Technically, these technical replicates are NOT supposed to be used for differential expression analysis per the LCSciences paper [2]! Quote, <p style="color:blue">_"The use of technical replicates alone will not be able to assess the biological variation within the same groups, will underestimate the standard deviation in Eq. 1, and therefore lead to false-positive calls."_</p> Thus, the data show below, especially the p-values, should be interpreted loosly.  If there is a miRNA of interest it should be followed up with additional experimentation.
+
+[2] Zhou X, Zhu Q, Eicken C et al. MicroRNA Profiling Using µParaflo Microfluidic Array Technology. In: Fan J-B (ed.). Next-Generation MicroRNA Expression Profiling Technology: Methods and Protocols. Totowa, NJ: Humana Press, 2012, 153–82.
+
+# New Analysis
+## Preprocessing
+
+The LCSciences team has already performed background subtraction and normalization on the data, so it is being used as-is without further preprocessing.  Additionally, the differential expression p-values calculated by LCSciences from the technical replicates are also being used as-is because other tools assume biological replicates are being input so the results won't be any more valid.  It looks like a standard student's t-test has been used to determine if there is a significant difference in expression across 2 conditions from the LCSciences analysis.
+
+From the LCSciences "Data Summary_S170089.doc" report, probes were filtered using the recommendations in the report.  Probes that have a CV greater than 0.5 in any one condition are removed. Additionally, any probe with a detection p-value greater than 0.01 in any one condition is also removed because it was not detected significantly over the background signal.
+
+**Issue:**  A major issue is that there are only 402 miRNAs included in the differential expression analysis by LCSciences while there are really over 700 probes.  According to the manual these are supposed to be filtered on StDev and Detection P-value, but it doesn't look like they did that, because when I did the filtering I only get about 188 probes.  
+
+
+```{r import, echo=FALSE}
+data = read.delim("S170089_MultiArray_NormalizedData.tsv", sep="\t", header = TRUE, row.names = 2)
+metadata = data[,c("Index","Target.Sequence.5to3", "Accession", "Reporter.Name.1", "Rabbit","Rat")]
+
+signals_main = data[,c("S01.Mean", "S02.Mean","S03.Mean")]
+stdevs_main = data[,c("S01.StDev", "S02.StDev","S03.StDev")]
+pvals_main = data[,c("S01.pval", "S02.pval","S03.pval")]
+
+## import technical replicate values
+
+techreps_main = read.delim("S170089_MultiArray_technicalReps.tsv", sep="\t", header = TRUE, row.names = 2)
+
+```
+
+## Contrasts
+
+In the following sections I will work through each contrast.  The filtering is done on a per-contrast level initially; thus, a miRNA may appear in one contrast, but not in another.  The final heatmap lists miRNAs that passed these filters for all 3 contrasts. <p style="color:red">_Keep in mind that the p-values are calculated from duplicate probes, so are not trustworthy._</p>
+
+### DM vs DM+I/R
+
+```{r DMvsIR, echo=FALSE}
+
+signals <- signals_main[,c(1,2)]
+stdevs <- stdevs_main[,c(1,2)]
+pvals <- pvals_main[,c(1,2)]
+techrep <- techreps_main[,c(2,3,4,5,6,7,8,9)]
+
+stdev_filter <- unlist(lapply(X = row.names(signals), FUN = function(X) any(stdevs[X,]/signals[X,] >= 0.5)))
+
+pval_filter <- unlist(lapply(X = row.names(pvals), FUN = function(X) any(pvals[X,] >= 0.01)))
+
+filters <- data.frame(row.names = row.names(signals), sf = stdev_filter, pf = pval_filter)
+
+filters$pass <- !unlist(lapply(X = row.names(filters), FUN = function(X) filters[X,1] || filters[X,2]))
+
+signals_filtered <- signals[filters$pass,]
+
+#names(signals_filtered_log2) <- c("DM (control)", "DM+I/R", "DM+I/R+RAPA")
+#names(signals_filtered) <- c("DM (control)", "DM+I/R", "DM+I/R+RAPA")
+
+## now get overlap with techreps12.
+
+filtered_techreps <- techrep[row.names(signals_filtered),]
+
+#all(row.names(filtered_techreps) == row.names(signals_filtered))
+
+deg_pvals <- unlist(lapply(X = row.names(filtered_techreps), FUN = function(X) t.test(x = filtered_techreps[X,c(1,2,3,4)], y = filtered_techreps[X,c(5,6,7,8)])$p.value))
+
+deg_padj12 <- data.frame(row.names = row.names(filtered_techreps), padj.DMvsDMIR = p.adjust(deg_pvals, "bonferroni"))
+deg_padj_filtered12 <- deg_padj12[deg_padj12$padj.DMvsDMIR<=0.01,,drop=FALSE]
+
+contrast12 <- log2(data.frame(row.names = row.names(signals_filtered), log2FC.DMvsDMIR = signals_filtered$`S02.Mean`/signals_filtered$`S01.Mean`))
+
+DMvsIR <- merge(contrast12, deg_padj_filtered12, all.x=FALSE, all.y=TRUE, by="row.names")
+DMvsIR <- DMvsIR[order(DMvsIR$padj.DMvsDMIR),]
+row.names(DMvsIR) <- DMvsIR$Row.names
+DMvsIR <- DMvsIR[,-1]
+
+write.table(merge(contrast12, deg_padj12, all.x=FALSE, all.y=TRUE, by="row.names"), sep="\t", quote = FALSE, file = "DMvsIR_padj_notFiltered.txt")
+
+```
+
+In this section we are comparing the DM (control) condition versus DM+I/R.  The DM condition is the control, so positive fold changes mean a miRNA is up-regulated in the DM+I/R condition compared to DM. Results are as follows:
+
+ * CV and Detection P-value Filter leaves `r dim(filtered_techreps)[1]` miRNAs.
+ * Differential Expression using Duplicate Probes leaves: `r dim(DMvsIR)[1]` miRNAs.
+
+Table and Volcano plot of differentially expressed miRNAs for DM vs I/R:
+<p style="color:red">_**Warning:** p-values are calculated from duplicate probes, so are not trustworthy._</p>
+```{r DMvsIRtable, echo=FALSE}
+kable(DMvsIR) %>% kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+
+
+```{r DMvsIR_volcano_wLabels, fig.height=20, fig.width=20}
+library(EnhancedVolcano)
+
+# all(row.names(contrast12)==row.names(deg_padj12))
+
+c12 <- data.frame(row.names = row.names(contrast12), log2FC = contrast12$log2FC.DMvsDMIR, padj = deg_padj12$padj.DMvsDMIR)
+
+keyvals <- ifelse(c12$log2FC<=-1, ifelse(c12$padj <= 0.05, 'royalblue', 'grey30'), ifelse(c12$log2FC>=1, ifelse(c12$padj <= 0.05, 'red', 'grey30'), 'grey30'))
+
+
+
+keyvals[is.na(keyvals)] <- 'grey30'
+names(keyvals)[keyvals == 'royalblue'] <- "Down-Regulated"
+names(keyvals)[keyvals == 'red'] <- "Up-Regulated"
+names(keyvals)[keyvals == 'grey30'] <- "NS"
+
+
+EnhancedVolcano(c12, lab = row.names(c12), x = 'log2FC', y = 'padj', 
+                title = "Contrast DM (control) vs DM+I/R", pCutoff = .05,  FCcutoff = 1, 
+                ylim=c(0,6), transcriptPointSize = 8,  titleLabSize = 30, captionLabSize = 30, 
+                axisLabSize = 30, cutoffLineWidth = 0.6, transcriptLabSize = 6, 
+                colCustom = keyvals, colAlpha = .9, drawConnectors = TRUE,
+                legendLabSize = 30, legendIconSize = 8)
+```
+```{r DMvsIR_volcano_woLabels, fig.height=20, fig.width=20}
+EnhancedVolcano(c12, lab = row.names(c12), x = 'log2FC', y = 'padj', 
+                title = "Contrast DM+I/R (control) vs DM+I/R+RAPA", pCutoff = .05,  FCcutoff = 1, 
+                transcriptPointSize = 8,  titleLabSize = 30, captionLabSize = 30, 
+                ylim=c(0,7), axisLabSize = 30, cutoffLineWidth = 0.6,  
+                colCustom = keyvals, colAlpha = .9, transcriptLabSize = 0,
+                legendLabSize = 30, legendIconSize = 8)
+```
+
+
+
+### DM vs DM+I/R+RAPA
+
+```{r DMvsRAPA}
+
+signals <- signals_main[,c(1,3)]
+stdevs <- stdevs_main[,c(1,3)]
+pvals <- pvals_main[,c(1,3)]
+techrep <- techreps_main[,c(2,3,4,5,10,11,12,13)]
+
+stdev_filter <- unlist(lapply(X = row.names(signals), FUN = function(X) any(stdevs[X,]/signals[X,] >= 0.5)))
+
+pval_filter <- unlist(lapply(X = row.names(pvals), FUN = function(X) any(pvals[X,] >= 0.01)))
+
+filters <- data.frame(row.names = row.names(signals), sf = stdev_filter, pf = pval_filter)
+
+filters$pass <- !unlist(lapply(X = row.names(filters), FUN = function(X) filters[X,1] || filters[X,2]))
+
+signals_filtered <- signals[filters$pass,]
+
+#names(signals_filtered_log2) <- c("DM (control)", "DM+I/R", "DM+I/R+RAPA")
+#names(signals_filtered) <- c("DM (control)", "DM+I/R", "DM+I/R+RAPA")
+
+## now get overlap with techreps12.
+
+filtered_techreps <- techrep[row.names(signals_filtered),]
+
+#all(row.names(filtered_techreps) == row.names(signals_filtered))
+
+deg_pvals <- unlist(lapply(X = row.names(filtered_techreps), FUN = function(X) t.test(x = filtered_techreps[X,c(1,2,3,4)], y = filtered_techreps[X,c(5,6,7,8)])$p.value))
+
+deg_padj13 <- data.frame(row.names = row.names(filtered_techreps), padj.DMvsRAPA = p.adjust(deg_pvals, "bonferroni"))
+deg_padj_filtered13 <- deg_padj13[deg_padj13$padj.DMvsRAPA<=0.01,,drop=FALSE]
+
+contrast13 <- log2(data.frame(row.names = row.names(signals_filtered), log2FC.DMvsRAPA = signals_filtered$`S03.Mean`/signals_filtered$`S01.Mean`))
+
+DMvsRAPA <- merge(contrast13, deg_padj_filtered13, all.x=FALSE, all.y=TRUE, by="row.names")
+DMvsRAPA <- DMvsRAPA[order(DMvsRAPA$padj.DMvsRAPA),]
+row.names(DMvsRAPA) <- DMvsRAPA$Row.names
+DMvsRAPA <- DMvsRAPA[,-1]
+
+write.table(merge(contrast13, deg_padj13, all.x=FALSE, all.y=TRUE, by="row.names"), sep="\t", quote = FALSE, file = "DMvsRAPA_padj_notFiltered.txt")
+
+```
+In this section we are comparing the DM (control) condition versus DM+I/R+RAPA.  The DM condition is the control, so positive fold changes mean a miRNA is up-regulated in the DM+I/R+RAPA condition compared to DM. Results are as follows:
+
+ * CV and Detection P-value Filter leaves `r dim(filtered_techreps)[1]` miRNAs.
+ * Differential Expression using Duplicate Probes leaves: `r dim(DMvsRAPA)[1]` miRNAs.
+
+Table and Volcano plot of differentially expressed miRNAs for DM vs RAPA:
+<p style="color:red">_**Warning:** p-values are calculated from duplicate probes, so are not trustworthy._</p>
+```{r DMvsRAPAtable, echo=FALSE}
+kable(DMvsRAPA) %>% kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+```{r DMvsRAPA_volcano_wLabels, fig.height=20, fig.width=20}
+
+#all(row.names(contrast13)==row.names(deg_padj13))
+
+c13 <- data.frame(row.names = row.names(contrast13), log2FC = contrast13$log2FC.DMvsRAPA, padj = deg_padj13$padj.DMvsRAPA)
+
+keyvals <- ifelse(c13$log2FC<=-1, ifelse(c13$padj <= 0.05, 'royalblue', 'grey30'), ifelse(c13$log2FC>=1, ifelse(c13$padj <= 0.05, 'red', 'grey30'), 'grey30'))
+
+
+
+keyvals[is.na(keyvals)] <- 'grey30'
+names(keyvals)[keyvals == 'royalblue'] <- "Down-Regulated"
+names(keyvals)[keyvals == 'red'] <- "Up-Regulated"
+names(keyvals)[keyvals == 'grey30'] <- "NS"
+
+
+EnhancedVolcano(c13, lab = row.names(c13), x = 'log2FC', y = 'padj', 
+                title = "Contrast DM (control) vs DM+I/R+RAPA", pCutoff = .05,  FCcutoff = 1, 
+                transcriptPointSize = 8,  titleLabSize = 30, captionLabSize = 30, 
+                ylim=c(0,7), axisLabSize = 30, cutoffLineWidth = 0.6, transcriptLabSize = 6, 
+                colCustom = keyvals, colAlpha = .9, drawConnectors = TRUE,
+                legendLabSize = 30, legendIconSize = 8)
+```
+```{r DMvsRAPA_volcano_woLabels, fig.height=20, fig.width=20}
+EnhancedVolcano(c13, lab = row.names(c13), x = 'log2FC', y = 'padj', 
+                title = "Contrast DM (control) vs DM+I/R+RAPA", pCutoff = .05,  FCcutoff = 1, 
+                transcriptPointSize = 8,  titleLabSize = 30, captionLabSize = 30, 
+                ylim=c(0,7), axisLabSize = 30, cutoffLineWidth = 0.6,  
+                colCustom = keyvals, colAlpha = .9, transcriptLabSize = 0,
+                legendLabSize = 30, legendIconSize = 8)
+
+```
+
+### DM+I/R vs DM+I/R+RAPA
+
+```{r IRvsRAPA}
+
+signals <- signals_main[,c(2,3)]
+stdevs <- stdevs_main[,c(2,3)]
+pvals <- pvals_main[,c(2,3)]
+techrep <- techreps_main[,c(6,7,8,9,10,11,12,13)]
+
+stdev_filter <- unlist(lapply(X = row.names(signals), FUN = function(X) any(stdevs[X,]/signals[X,] >= 0.5)))
+
+pval_filter <- unlist(lapply(X = row.names(pvals), FUN = function(X) any(pvals[X,] >= 0.01)))
+
+filters <- data.frame(row.names = row.names(signals), sf = stdev_filter, pf = pval_filter)
+
+filters$pass <- !unlist(lapply(X = row.names(filters), FUN = function(X) filters[X,1] || filters[X,2]))
+
+signals_filtered <- signals[filters$pass,]
+
+#names(signals_filtered_log2) <- c("DM (control)", "DM+I/R", "DM+I/R+RAPA")
+#names(signals_filtered) <- c("DM (control)", "DM+I/R", "DM+I/R+RAPA")
+
+## now get overlap with techreps12.
+
+filtered_techreps <- techrep[row.names(signals_filtered),]
+
+#all(row.names(filtered_techreps) == row.names(signals_filtered))
+
+deg_pvals <- unlist(lapply(X = row.names(filtered_techreps), FUN = function(X) t.test(x = filtered_techreps[X,c(1,2,3,4)], y = filtered_techreps[X,c(5,6,7,8)])$p.value))
+
+deg_padj23 <- data.frame(row.names = row.names(filtered_techreps), padj.DMIRvsRAPA = p.adjust(deg_pvals, "bonferroni"))
+deg_padj_filtered23 <- deg_padj23[deg_padj23$padj.DMIRvsRAPA<=0.01,,drop=FALSE]
+
+contrast23 <- log2(data.frame(row.names = row.names(signals_filtered), log2FC.DMIRvsRAPA = signals_filtered$`S03.Mean`/signals_filtered$`S02.Mean`))
+
+IRvsRAPA <- merge(contrast23, deg_padj_filtered23, all.x=FALSE, all.y=TRUE, by="row.names")
+IRvsRAPA <- IRvsRAPA[order(IRvsRAPA$padj.DMIRvsRAPA),]
+row.names(IRvsRAPA) <- IRvsRAPA$Row.names
+IRvsRAPA <- IRvsRAPA[,-1]
+
+write.table(merge(contrast23, deg_padj23, all.x=FALSE, all.y=TRUE, by="row.names"), sep="\t", quote = FALSE, file = "IRvsRAPA_padj_notFiltered.txt")
+
+```
+In this section we are comparing the DM (control) condition versus DM+I/R+RAPA.  The DM condition is the control, so positive fold changes mean a miRNA is up-regulated in the DM+I/R+RAPA condition compared to DM. Results are as follows:
+
+ * CV and Detection P-value Filter leaves `r dim(filtered_techreps)[1]` miRNAs.
+ * Differential Expression using Duplicate Probes leaves: `r dim(IRvsRAPA)[1]` miRNAs.
+
+Table and Volcano plot of differentially expressed miRNAs for DM vs RAPA:
+<p style="color:red">_**Warning:** p-values are calculated from duplicate probes, so are not trustworthy._</p>
+```{r IRvsRAPAtable, echo=FALSE}
+kable(IRvsRAPA) %>% kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+```{r IRvsRAPA_volcano_wLabels, fig.height=20, fig.width=20}
+
+#all(row.names(contrast23)==row.names(deg_padj23))
+
+c23 <- data.frame(row.names = row.names(contrast23), log2FC = contrast23$log2FC.DMIRvsRAPA, padj = deg_padj23$padj.DMIRvsRAPA)
+
+keyvals <- ifelse(c23$log2FC<=-1, ifelse(c23$padj <= 0.05, 'royalblue', 'grey30'), ifelse(c23$log2FC>=1, ifelse(c23$padj <= 0.05, 'red', 'grey30'), 'grey30'))
+
+keyvals[is.na(keyvals)] <- 'grey30'
+names(keyvals)[keyvals == 'royalblue'] <- "Down-Regulated"
+names(keyvals)[keyvals == 'red'] <- "Up-Regulated"
+names(keyvals)[keyvals == 'grey30'] <- "NS"
+
+EnhancedVolcano(c23, lab = row.names(c23), x = 'log2FC', y = 'padj', 
+                title = "Contrast DM+I/R (control) vs DM+I/R+RAPA", pCutoff = .05,  FCcutoff = 1, 
+                transcriptPointSize = 8,  titleLabSize = 30, captionLabSize = 30, 
+                ylim=c(0,7), axisLabSize = 30, cutoffLineWidth = 0.6, transcriptLabSize = 6, 
+                colCustom = keyvals, colAlpha = .9, drawConnectors = TRUE,
+                legendLabSize = 30, legendIconSize = 8)
+```
+```{r IRvsRAPA_volcano_woLabels, fig.height=20, fig.width=20}
+
+EnhancedVolcano(c23, lab = row.names(c23), x = 'log2FC', y = 'padj', 
+                title = "Contrast DM+I/R (control) vs DM+I/R+RAPA", pCutoff = .05,  FCcutoff = 1, 
+                transcriptPointSize = 8,  titleLabSize = 30, captionLabSize = 30, 
+                ylim=c(0,7), axisLabSize = 30, cutoffLineWidth = 0.6,  
+                colCustom = keyvals, colAlpha = .9, transcriptLabSize = 0,
+                legendLabSize = 30, legendIconSize = 8)
+
+```
+
+
+## Heatmap Analysis
+
+Below are two heatmaps of the data.  The first shows the scaled signal intensities of each probe that passed the CV and Detection P-value filter for all 3 conditions.  The second shows the fold changes for this same cohort of miRNAs.
+
+```{r merge contrasts}
+
+tmp <- merge(contrast12, contrast13, by="row.names", all=TRUE)
+row.names(tmp) <- tmp$Row.names
+tmp <- tmp[,-1]
+
+merged_contrasts <- merge(tmp, contrast23, by="row.names", all=TRUE)
+row.names(merged_contrasts) <- merged_contrasts$Row.names
+merged_contrasts <- merged_contrasts[,-1]
+
+merged_contrasts_nona <- na.omit(merged_contrasts)
+
+tmp <- merge(deg_padj12, deg_padj13, by="row.names", all=TRUE)
+row.names(tmp) <- tmp$Row.names
+tmp <- tmp[,-1]
+
+merged_padj <- merge(tmp, deg_padj23, by="row.names", all=TRUE)
+row.names(merged_padj) <- merged_padj$Row.names
+merged_padj <- merged_padj[,-1]
+
+merged_padj_nona <- na.omit(merged_padj)
+
+```
+
+
+The following is a heatmap of the log2 of the mean signal intensities for each condition scaled by row.  There are `r dim(merged_contrasts_nona)[1]` miRNAs that passed the filteres for all 3 conditions (included in heatmaps below), with `r dim(merged_contrasts)[1] - dim(merged_contrasts_nona)[1]` miRNAs that were excluded because they failed in one or more conditions.
+
+```{r Heatmap_Log2Signal_RowScaled, fig.height=50, fig.width=10}
+
+signals_main_filtered <- signals_main[row.names(merged_contrasts_nona),]
+names(signals_main_filtered) <- c("DM (control)", "DM+I/R", "DM+I/R+RAPA")
+
+ComplexHeatmap::Heatmap(t(scale(t(log2(signals_main_filtered)))))
+
+```
+
+The following is a heatmap of the log2 Fold Change for each contrast.
+
+```{r Heatmap_Log2FC, fig.height=50, fig.width=10}
+
+ComplexHeatmap::Heatmap(merged_contrasts_nona)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
