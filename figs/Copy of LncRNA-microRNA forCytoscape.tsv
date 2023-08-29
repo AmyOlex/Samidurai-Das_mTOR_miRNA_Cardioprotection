@@ -1,0 +1,13 @@
+Target	Source	Species	Target Type	Source Type	Database
+miR-244			microRNA		
+miR-1b			microRNA		
+miR-29c			microRNA		
+miR-193b-3p	MALAT1/Malat1	human	microRNA	LncRNA	DIANA
+miR-499-5p			microRNA		
+miR-15b-5p	MALAT1/Malat1	human	microRNA	LncRNA	DIANA
+miR-140-3p	MALAT1/Malat1	mouse	microRNA	LncRNA	DIANA
+miR-199a-3p	MALAT1/Malat1	human	microRNA	LncRNA	DIANA
+miR-1991-5p			microRNA		
+miR-320-3p	MALAT1/Malat1	mouse	microRNA	LncRNA	DIANA
+miR-15b-5p	MIAT/Miat	human	microRNA	LncRNA	DIANA
+miR-320-3p	MIAT/Miat	mouse	microRNA	LncRNA	DIANA

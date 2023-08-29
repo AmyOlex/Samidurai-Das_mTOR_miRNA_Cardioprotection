@@ -1,0 +1,847 @@
+Source	Target	Species	Target Score	Target Description	SourceType	TargetType	TargetDegree	MultipleSpecies
+miR-140-3p	Gm14440	Mouse	100	predicted gene 14440	miRNA	mRNA	1	1
+miR-15b-5p	Pappa	Mouse	100	pregnancy-associated plasma protein A	miRNA	mRNA	1	2
+miR-199a-3p	Adamtsl3	Mouse	100	ADAMTS-like 3	miRNA	mRNA	1	3
+miR-1b-5p	Pes1	Mouse	100	pescadillo ribosomal biogenesis factor 1	miRNA	mRNA	1	1
+miR-1b-5p	Kat7	Mouse	100	K(lysine) acetyltransferase 7	miRNA	mRNA	1	1
+miR-1b-5p	Olfr658	Mouse	100	olfactory receptor 658	miRNA	mRNA	1	1
+miR-1b-5p	Pfkfb2	Mouse	100	6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 2	miRNA	mRNA	1	1
+miR-1b-5p	Unk	Mouse	100	unkempt family zinc finger	miRNA	mRNA	1	1
+miR-29c-3p	Nav1	Mouse	100	neuron navigator 1	miRNA	mRNA	1	2
+miR-29c-3p	Col5a1	Mouse	100	collagen, type V, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	Tet2	Mouse	100	tet methylcytosine dioxygenase 2	miRNA	mRNA	1	2
+miR-29c-3p	Tet3	Mouse	100	tet methylcytosine dioxygenase 3	miRNA	mRNA	1	2
+miR-29c-3p	Sestd1	Mouse	100	SEC14 and spectrin domains 1	miRNA	mRNA	1	2
+miR-320-3p	Arpp19	Mouse	100	cAMP-regulated phosphoprotein 19	miRNA	mRNA	1	2
+miR-320-3p	Pigk	Mouse	100	phosphatidylinositol glycan anchor biosynthesis, class K	miRNA	mRNA	1	1
+miR-320-3p	Onecut2	Mouse	100	one cut domain, family member 2	miRNA	mRNA	2	1
+miR-499-5p	Myef2	Mouse	100	myelin basic protein expression factor 2, repressor	miRNA	mRNA	1	2
+miR-499-5p	Pgap1	Mouse	100	post-GPI attachment to proteins 1	miRNA	mRNA	1	2
+miR-140-3p	Zfp131	Mouse	99	zinc finger protein 131	miRNA	mRNA	1	1
+miR-15b-5p	Ubfd1	Mouse	99	ubiquitin family domain containing 1	miRNA	mRNA	1	2
+miR-15b-5p	Plxna4	Mouse	99	plexin A4	miRNA	mRNA	1	2
+miR-15b-5p	Akt3	Mouse	99	thymoma viral proto-oncogene 3	miRNA	mRNA	1	2
+miR-15b-5p	Cpeb2	Mouse	99	cytoplasmic polyadenylation element binding protein 2	miRNA	mRNA	1	2
+miR-15b-5p	Mapkap1	Mouse	99	mitogen-activated protein kinase associated protein 1	miRNA	mRNA	1	1
+miR-15b-5p	Rasgef1b	Mouse	99	RasGEF domain family, member 1B	miRNA	mRNA	1	2
+miR-15b-5p	Arl2	Mouse	99	ADP-ribosylation factor-like 2	miRNA	mRNA	2	3
+miR-199a-3p	Itga3	Mouse	99	integrin alpha 3	miRNA	mRNA	1	2
+miR-199a-3p	Cd151	Mouse	99	CD151 antigen	miRNA	mRNA	1	2
+miR-199a-3p	Celsr2	Mouse	99	cadherin, EGF LAG seven-pass G-type receptor 2	miRNA	mRNA	1	2
+miR-1b-5p	Neurog2	Mouse	99	neurogenin 2	miRNA	mRNA	1	1
+miR-1b-5p	Chd2	Mouse	99	chromodomain helicase DNA binding protein 2	miRNA	mRNA	2	2
+miR-214-3p	Luzp1	Mouse	99	leucine zipper protein 1	miRNA	mRNA	2	3
+miR-214-3p	Dolpp1	Mouse	99	dolichyl pyrophosphate phosphatase 1	miRNA	mRNA	1	3
+miR-214-3p	Snx12	Mouse	99	sorting nexin 12	miRNA	mRNA	1	2
+miR-214-3p	Usp20	Mouse	99	ubiquitin specific peptidase 20	miRNA	mRNA	1	1
+miR-214-3p	Cpsf4	Mouse	99	cleavage and polyadenylation specific factor 4	miRNA	mRNA	1	3
+miR-29c-3p	Col9a1	Mouse	99	collagen, type IX, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	Adamts17	Mouse	99	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 17	miRNA	mRNA	1	2
+miR-29c-3p	Col11a1	Mouse	99	collagen, type XI, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	Nexmif	Mouse	99	neurite extension and migration factor	miRNA	mRNA	1	3
+miR-29c-3p	Fbn1	Mouse	99	fibrillin 1	miRNA	mRNA	1	2
+miR-29c-3p	Col4a5	Mouse	99	collagen, type IV, alpha 5	miRNA	mRNA	1	1
+miR-29c-3p	Nasp	Mouse	99	nuclear autoantigenic sperm protein (histone-binding)	miRNA	mRNA	1	2
+miR-29c-3p	Atad2b	Mouse	99	ATPase family, AAA domain containing 2B	miRNA	mRNA	1	2
+miR-29c-3p	Col3a1	Mouse	99	collagen, type III, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	Col5a2	Mouse	99	collagen, type V, alpha 2	miRNA	mRNA	1	2
+miR-29c-3p	Col5a3	Mouse	99	collagen, type V, alpha 3	miRNA	mRNA	1	2
+miR-29c-3p	Eln	Mouse	99	elastin	miRNA	mRNA	1	2
+miR-320-3p	Tmem64	Mouse	99	transmembrane protein 64	miRNA	mRNA	1	1
+miR-320-3p	Pan3	Mouse	99	PAN3 poly(A) specific ribonuclease subunit	miRNA	mRNA	1	1
+miR-499-5p	Sox6	Mouse	99	SRY (sex determining region Y)-box 6	miRNA	mRNA	1	1
+miR-499-5p	Rsbn1	Mouse	99	rosbin, round spermatid basic protein 1	miRNA	mRNA	1	2
+miR-499-5p	Abhd17b	Mouse	99	abhydrolase domain containing 17B	miRNA	mRNA	1	1
+miR-140-3p	Git1	Mouse	98	GIT ArfGAP 1	miRNA	mRNA	1	1
+miR-15b-5p	Syde2	Mouse	98	synapse defective 1, Rho GTPase, homolog 2 (C. elegans)	miRNA	mRNA	1	2
+miR-15b-5p	Luzp1	Mouse	98	leucine zipper protein 1	miRNA	mRNA	2	3
+miR-15b-5p	Ahcyl2	Mouse	98	S-adenosylhomocysteine hydrolase-like 2	miRNA	mRNA	1	3
+miR-15b-5p	Tnrc6b	Mouse	98	trinucleotide repeat containing 6b	miRNA	mRNA	1	3
+miR-15b-5p	Unc80	Mouse	98	unc-80, NALCN activator	miRNA	mRNA	1	2
+miR-15b-5p	Rfx3	Mouse	98	regulatory factor X, 3 (influences HLA class II expression)	miRNA	mRNA	2	2
+miR-15b-5p	Nectin1	Mouse	98	nectin cell adhesion molecule 1	miRNA	mRNA	1	3
+miR-15b-5p	Kdsr	Mouse	98	3-ketodihydrosphingosine reductase	miRNA	mRNA	1	3
+miR-15b-5p	Phf19	Mouse	98	PHD finger protein 19	miRNA	mRNA	1	3
+miR-15b-5p	Dcaf7	Mouse	98	DDB1 and CUL4 associated factor 7	miRNA	mRNA	2	3
+miR-15b-5p	Pacsin2	Mouse	98	protein kinase C and casein kinase substrate in neurons 2	miRNA	mRNA	1	1
+miR-15b-5p	N4bp1	Mouse	98	NEDD4 binding protein 1	miRNA	mRNA	1	3
+miR-15b-5p	Tmem74b	Mouse	98	transmembrane protein 74B	miRNA	mRNA	1	1
+miR-15b-5p	Kcnj2	Mouse	98	potassium inwardly-rectifying channel, subfamily J, member 2	miRNA	mRNA	1	2
+miR-15b-5p	Ccnd2	Mouse	98	cyclin D2	miRNA	mRNA	1	2
+miR-15b-5p	Btrc	Mouse	98	beta-transducin repeat containing protein	miRNA	mRNA	1	2
+miR-15b-5p	Kif5c	Mouse	98	kinesin family member 5C	miRNA	mRNA	1	2
+miR-15b-5p	Arih1	Mouse	98	ariadne RBR E3 ubiquitin protein ligase 1	miRNA	mRNA	1	2
+miR-199a-3p	Nid2	Mouse	98	nidogen 2	miRNA	mRNA	1	2
+miR-1b-3p	Pcdhgb7	Mouse	98	protocadherin gamma subfamily B, 7	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhgc5	Mouse	98	protocadherin gamma subfamily C, 5	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga8	Mouse	98	protocadherin gamma subfamily A, 8	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga11	Mouse	98	protocadherin gamma subfamily A, 11	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga10	Mouse	98	protocadherin gamma subfamily A, 10	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga7	Mouse	98	protocadherin gamma subfamily A, 7	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga3	Mouse	98	protocadherin gamma subfamily A, 3	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga2	Mouse	98	protocadherin gamma subfamily A, 2	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga1	Mouse	98	protocadherin gamma subfamily A, 1	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga9	Mouse	98	protocadherin gamma subfamily A, 9	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhgb8	Mouse	98	protocadherin gamma subfamily B, 8	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga12	Mouse	98	protocadherin gamma subfamily A, 12	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga5	Mouse	98	protocadherin gamma subfamily A, 5	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhgc3	Mouse	98	protocadherin gamma subfamily C, 3	miRNA	mRNA	1	1
+miR-1b-3p	Tspan3	Mouse	98	tetraspanin 3	miRNA	mRNA	2	1
+miR-1b-5p	Pds5b	Mouse	98	PDS5 cohesin associated factor B	miRNA	mRNA	1	1
+miR-1b-5p	Ms4a4b	Mouse	98	membrane-spanning 4-domains, subfamily A, member 4B	miRNA	mRNA	1	1
+miR-1b-5p	Rab11a	Mouse	98	RAB11A, member RAS oncogene family	miRNA	mRNA	1	1
+miR-214-3p	Naa15	Mouse	98	N(alpha)-acetyltransferase 15, NatA auxiliary subunit	miRNA	mRNA	1	3
+miR-214-3p	Il17rd	Mouse	98	interleukin 17 receptor D	miRNA	mRNA	1	2
+miR-214-3p	Sall4	Mouse	98	spalt like transcription factor 4	miRNA	mRNA	2	2
+miR-214-3p	Stx8	Mouse	98	syntaxin 8	miRNA	mRNA	1	1
+miR-214-3p	Sema4d	Mouse	98	sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4D	miRNA	mRNA	1	2
+miR-214-3p	Slc8a1	Mouse	98	solute carrier family 8 (sodium/calcium exchanger), member 1	miRNA	mRNA	1	3
+miR-29c-3p	Sparc	Mouse	98	secreted acidic cysteine rich glycoprotein	miRNA	mRNA	1	2
+miR-29c-3p	Zdhhc21	Mouse	98	zinc finger, DHHC domain containing 21	miRNA	mRNA	1	1
+miR-29c-3p	Brwd3	Mouse	98	bromodomain and WD repeat domain containing 3	miRNA	mRNA	1	2
+miR-29c-3p	Zfp346	Mouse	98	zinc finger protein 346	miRNA	mRNA	1	1
+miR-29c-3p	Dnmt3a	Mouse	98	DNA methyltransferase 3A	miRNA	mRNA	1	2
+miR-29c-3p	Purg	Mouse	98	purine-rich element binding protein G	miRNA	mRNA	1	2
+miR-29c-3p	Tet1	Mouse	98	tet methylcytosine dioxygenase 1	miRNA	mRNA	1	2
+miR-29c-3p	Col7a1	Mouse	98	collagen, type VII, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	Zbtb5	Mouse	98	zinc finger and BTB domain containing 5	miRNA	mRNA	1	2
+miR-320-3p	Spopl	Mouse	98	speckle-type POZ protein-like	miRNA	mRNA	1	2
+miR-320-3p	Ppm1b	Mouse	98	protein phosphatase 1B, magnesium dependent, beta isoform	miRNA	mRNA	1	1
+miR-320-3p	Ap3m1	Mouse	98	adaptor-related protein complex 3, mu 1 subunit	miRNA	mRNA	1	1
+miR-320-3p	Fgd4	Mouse	98	FYVE, RhoGEF and PH domain containing 4	miRNA	mRNA	1	1
+miR-320-3p	Pcdh19	Mouse	98	protocadherin 19	miRNA	mRNA	1	1
+miR-320-3p	Mindy2	Mouse	98	MINDY lysine 48 deubiquitinase 2	miRNA	mRNA	1	1
+miR-320-3p	Kdm7a	Mouse	98	lysine (K)-specific demethylase 7A	miRNA	mRNA	2	1
+miR-140-3p	Zfp970	Mouse	97	zinc finger protein 970	miRNA	mRNA	1	1
+miR-15b-5p	Ccne1	Mouse	97	cyclin E1	miRNA	mRNA	1	3
+miR-15b-5p	Actr2	Mouse	97	ARP2 actin-related protein 2	miRNA	mRNA	1	2
+miR-15b-5p	Wee1	Mouse	97	WEE 1 homolog 1 (S. pombe)	miRNA	mRNA	1	3
+miR-15b-5p	Tll1	Mouse	97	tolloid-like	miRNA	mRNA	2	3
+miR-15b-5p	Apln	Mouse	97	apelin	miRNA	mRNA	1	2
+miR-15b-5p	Zbtb39	Mouse	97	zinc finger and BTB domain containing 39	miRNA	mRNA	1	3
+miR-15b-5p	Nup50	Mouse	97	nucleoporin 50	miRNA	mRNA	1	3
+miR-15b-5p	Ube4b	Mouse	97	ubiquitination factor E4B	miRNA	mRNA	1	3
+miR-15b-5p	Usp31	Mouse	97	ubiquitin specific peptidase 31	miRNA	mRNA	1	2
+miR-15b-5p	Prkar2a	Mouse	97	protein kinase, cAMP dependent regulatory, type II alpha	miRNA	mRNA	1	1
+miR-15b-5p	Cdk17	Mouse	97	cyclin-dependent kinase 17	miRNA	mRNA	2	3
+miR-15b-5p	Adgrl1	Mouse	97	adhesion G protein-coupled receptor L1	miRNA	mRNA	1	2
+miR-193b-3p	Dcaf7	Mouse	97	DDB1 and CUL4 associated factor 7	miRNA	mRNA	2	3
+miR-199a-3p	Pak4	Mouse	97	p21 (RAC1) activated kinase 4	miRNA	mRNA	1	3
+miR-199a-3p	Taok1	Mouse	97	TAO kinase 1	miRNA	mRNA	1	2
+miR-199a-3p	Lin28b	Mouse	97	lin-28 homolog B (C. elegans)	miRNA	mRNA	1	2
+miR-199a-3p	Ankrd44	Mouse	97	ankyrin repeat domain 44	miRNA	mRNA	1	1
+miR-199a-3p	Pnrc1	Mouse	97	proline-rich nuclear receptor coactivator 1	miRNA	mRNA	1	2
+miR-1b-3p	Aldh3a2	Mouse	97	aldehyde dehydrogenase family 3, subfamily A2	miRNA	mRNA	1	1
+miR-1b-5p	Mis18a	Mouse	97	MIS18 kinetochore protein A	miRNA	mRNA	1	1
+miR-1b-5p	Mei4	Mouse	97	meiotic double-stranded break formation protein 4	miRNA	mRNA	1	1
+miR-1b-5p	Psmc6	Mouse	97	proteasome (prosome, macropain) 26S subunit, ATPase, 6	miRNA	mRNA	1	1
+miR-1b-5p	Tnrc6c	Mouse	97	trinucleotide repeat containing 6C	miRNA	mRNA	1	1
+miR-1b-5p	Tubgcp5	Mouse	97	tubulin, gamma complex associated protein 5	miRNA	mRNA	1	1
+miR-1b-5p	Riok3	Mouse	97	RIO kinase 3	miRNA	mRNA	1	1
+miR-214-3p	Rubcn	Mouse	97	RUN domain and cysteine-rich domain containing, Beclin 1-interacting protein	miRNA	mRNA	1	2
+miR-214-3p	Kbtbd2	Mouse	97	kelch repeat and BTB (POZ) domain containing 2	miRNA	mRNA	2	2
+miR-214-3p	Ammecr1l	Mouse	97	AMME chromosomal region gene 1-like	miRNA	mRNA	1	3
+miR-214-5p	Ube2k	Mouse	97	ubiquitin-conjugating enzyme E2K	miRNA	mRNA	1	1
+miR-29c-3p	Pcdha11	Mouse	97	protocadherin alpha 11	miRNA	mRNA	2	2
+miR-29c-3p	Pcdhac1	Mouse	97	protocadherin alpha subfamily C, 1	miRNA	mRNA	2	2
+miR-29c-3p	Ifi30	Mouse	97	interferon gamma inducible protein 30	miRNA	mRNA	1	2
+miR-29c-3p	Col2a1	Mouse	97	collagen, type II, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	D630045J12Rik	Mouse	97	RIKEN cDNA D630045J12 gene	miRNA	mRNA	1	1
+miR-29c-3p	Col19a1	Mouse	97	collagen, type XIX, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	Pcdha2	Mouse	97	protocadherin alpha 2	miRNA	mRNA	2	2
+miR-29c-3p	Adamts18	Mouse	97	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 18	miRNA	mRNA	1	1
+miR-29c-3p	Pcdha7	Mouse	97	protocadherin alpha 7	miRNA	mRNA	2	2
+miR-29c-3p	C1qtnf6	Mouse	97	C1q and tumor necrosis factor related protein 6	miRNA	mRNA	1	2
+miR-29c-3p	Col4a1	Mouse	97	collagen, type IV, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	Rab30	Mouse	97	RAB30, member RAS oncogene family	miRNA	mRNA	1	2
+miR-29c-3p	Pcdhac2	Mouse	97	protocadherin alpha subfamily C, 2	miRNA	mRNA	2	2
+miR-29c-3p	Pcdha3	Mouse	97	protocadherin alpha 3	miRNA	mRNA	2	2
+miR-29c-3p	Pcdha4	Mouse	97	protocadherin alpha 4	miRNA	mRNA	2	3
+miR-29c-3p	1810013L24Rik	Mouse	97	RIKEN cDNA 1810013L24 gene	miRNA	mRNA	2	1
+miR-29c-3p	Pcdha5	Mouse	97	protocadherin alpha 5	miRNA	mRNA	2	2
+miR-29c-3p	Pcdha6	Mouse	97	protocadherin alpha 6	miRNA	mRNA	2	2
+miR-29c-3p	Rest	Mouse	97	RE1-silencing transcription factor	miRNA	mRNA	1	2
+miR-29c-3p	Zbtb34	Mouse	97	zinc finger and BTB domain containing 34	miRNA	mRNA	2	2
+miR-29c-3p	Pcdha10	Mouse	97	protocadherin alpha 10	miRNA	mRNA	2	2
+miR-29c-3p	Pcdha1	Mouse	97	protocadherin alpha 1	miRNA	mRNA	2	2
+miR-29c-3p	Pcdha12	Mouse	97	protocadherin alpha 12	miRNA	mRNA	2	2
+miR-29c-3p	Igf1	Mouse	97	insulin-like growth factor 1	miRNA	mRNA	2	2
+miR-29c-3p	Pcdha9	Mouse	97	protocadherin alpha 9	miRNA	mRNA	2	2
+miR-320-3p	Tmem255a	Mouse	97	transmembrane protein 255A	miRNA	mRNA	1	1
+miR-320-3p	Pbx3	Mouse	97	pre B cell leukemia homeobox 3	miRNA	mRNA	1	2
+miR-320-3p	Gxylt1	Mouse	97	glucoside xylosyltransferase 1	miRNA	mRNA	1	2
+miR-320-3p	Plppr1	Mouse	97	phospholipid phosphatase related 1	miRNA	mRNA	1	1
+miR-499-5p	Sos2	Mouse	97	SOS Ras/Rho guanine nucleotide exchange factor 2	miRNA	mRNA	1	3
+miR-499-5p	Ube2v2	Mouse	97	ubiquitin-conjugating enzyme E2 variant 2	miRNA	mRNA	1	2
+miR-499-5p	Ikzf2	Mouse	97	IKAROS family zinc finger 2	miRNA	mRNA	1	1
+miR-140-3p	2210418O10Rik	Mouse	96	RIKEN cDNA 2210418O10 gene	miRNA	mRNA	1	1
+miR-140-3p	Olig3	Mouse	96	oligodendrocyte transcription factor 3	miRNA	mRNA	1	1
+miR-140-3p	Gm13128	Mouse	96	predicted gene 13128	miRNA	mRNA	1	1
+miR-140-3p	Stag2	Mouse	96	stromal antigen 2	miRNA	mRNA	2	2
+miR-140-3p	Pramef17	Mouse	96	PRAME family member 17	miRNA	mRNA	1	1
+miR-140-3p	Ythdf1	Mouse	96	YTH N6-methyladenosine RNA binding protein 1	miRNA	mRNA	1	2
+miR-140-3p	Tmem159	Mouse	96	transmembrane protein 159	miRNA	mRNA	1	2
+miR-15b-5p	Cyp26b1	Mouse	96	cytochrome P450, family 26, subfamily b, polypeptide 1	miRNA	mRNA	1	2
+miR-15b-5p	Dnajc16	Mouse	96	DnaJ heat shock protein family (Hsp40) member C16	miRNA	mRNA	1	1
+miR-15b-5p	Kl	Mouse	96	klotho	miRNA	mRNA	1	1
+miR-15b-5p	Ywhah	Mouse	96	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide	miRNA	mRNA	2	2
+miR-15b-5p	Abtb2	Mouse	96	ankyrin repeat and BTB (POZ) domain containing 2	miRNA	mRNA	1	1
+miR-15b-5p	Zfp367	Mouse	96	zinc finger protein 367	miRNA	mRNA	1	1
+miR-15b-5p	Trabd2b	Mouse	96	TraB domain containing 2B	miRNA	mRNA	1	2
+miR-15b-5p	Crebrf	Mouse	96	CREB3 regulatory factor	miRNA	mRNA	1	2
+miR-15b-5p	Cpd	Mouse	96	carboxypeptidase D	miRNA	mRNA	2	1
+miR-15b-5p	Cacul1	Mouse	96	CDK2 associated, cullin domain 1	miRNA	mRNA	1	3
+miR-15b-5p	Cnot6l	Mouse	96	CCR4-NOT transcription complex, subunit 6-like	miRNA	mRNA	4	2
+miR-15b-5p	Pip4p2	Mouse	96	phosphatidylinositol-4,5-bisphosphate 4-phosphatase 2	miRNA	mRNA	1	2
+miR-15b-5p	Spryd3	Mouse	96	SPRY domain containing 3	miRNA	mRNA	1	2
+miR-15b-5p	Sema3a	Mouse	96	sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3A	miRNA	mRNA	2	2
+miR-15b-5p	Pth	Mouse	96	parathyroid hormone	miRNA	mRNA	1	3
+miR-15b-5p	Smad7	Mouse	96	SMAD family member 7	miRNA	mRNA	1	3
+miR-15b-5p	Il7r	Mouse	96	interleukin 7 receptor	miRNA	mRNA	1	1
+miR-15b-5p	Ano3	Mouse	96	anoctamin 3	miRNA	mRNA	1	2
+miR-15b-5p	Srpr	Mouse	96	signal recognition particle receptor ('docking protein')	miRNA	mRNA	1	1
+miR-15b-5p	Erlin2	Mouse	96	ER lipid raft associated 2	miRNA	mRNA	2	2
+miR-15b-5p	Ippk	Mouse	96	inositol 1,3,4,5,6-pentakisphosphate 2-kinase	miRNA	mRNA	1	2
+miR-15b-5p	Mfn2	Mouse	96	mitofusin 2	miRNA	mRNA	1	2
+miR-15b-5p	Zcchc3	Mouse	96	zinc finger, CCHC domain containing 3	miRNA	mRNA	1	2
+miR-15b-5p	Dclk1	Mouse	96	doublecortin-like kinase 1	miRNA	mRNA	1	3
+miR-15b-5p	Hmga1	Mouse	96	high mobility group AT-hook 1	miRNA	mRNA	1	1
+miR-15b-5p	Bicd1	Mouse	96	BICD cargo adaptor 1	miRNA	mRNA	1	2
+miR-15b-5p	Higd1a	Mouse	96	HIG1 domain family, member 1A	miRNA	mRNA	1	2
+miR-15b-5p	Wnt7a	Mouse	96	wingless-type MMTV integration site family, member 7A	miRNA	mRNA	1	2
+miR-15b-5p	Crebl2	Mouse	96	cAMP responsive element binding protein-like 2	miRNA	mRNA	1	1
+miR-193b-3p	Kit	Mouse	96	KIT proto-oncogene receptor tyrosine kinase	miRNA	mRNA	1	1
+miR-193b-3p	Mapk10	Mouse	96	mitogen-activated protein kinase 10	miRNA	mRNA	1	2
+miR-199a-3p	Serpine2	Mouse	96	serine (or cysteine) peptidase inhibitor, clade E, member 2	miRNA	mRNA	1	3
+miR-199a-3p	Sh3glb1	Mouse	96	SH3-domain GRB2-like B1 (endophilin)	miRNA	mRNA	1	1
+miR-199a-3p	Rb1	Mouse	96	RB transcriptional corepressor 1	miRNA	mRNA	1	3
+miR-199a-3p	Tmem62	Mouse	96	transmembrane protein 62	miRNA	mRNA	1	1
+miR-199a-3p	Bcar3	Mouse	96	breast cancer anti-estrogen resistance 3	miRNA	mRNA	1	3
+miR-199a-3p	Rfx3	Mouse	96	regulatory factor X, 3 (influences HLA class II expression)	miRNA	mRNA	2	2
+miR-1b-3p	Peg10	Mouse	96	paternally expressed 10	miRNA	mRNA	1	1
+miR-1b-3p	Tent5c	Mouse	96	terminal nucleotidyltransferase 5C	miRNA	mRNA	1	1
+miR-1b-5p	Birc6	Mouse	96	baculoviral IAP repeat-containing 6	miRNA	mRNA	1	1
+miR-1b-5p	Sox9	Mouse	96	SRY (sex determining region Y)-box 9	miRNA	mRNA	1	1
+miR-214-3p	Creb1	Mouse	96	cAMP responsive element binding protein 1	miRNA	mRNA	1	1
+miR-214-3p	Tmem161b	Mouse	96	transmembrane protein 161B	miRNA	mRNA	1	1
+miR-214-3p	Fgfr1	Mouse	96	fibroblast growth factor receptor 1	miRNA	mRNA	1	2
+miR-214-3p	Mlxip	Mouse	96	MLX interacting protein	miRNA	mRNA	1	2
+miR-214-3p	Zfand3	Mouse	96	zinc finger, AN1-type domain 3	miRNA	mRNA	1	3
+miR-214-3p	Fbln5	Mouse	96	fibulin 5	miRNA	mRNA	1	2
+miR-214-3p	Rexo2	Mouse	96	RNA exonuclease 2	miRNA	mRNA	1	1
+miR-214-3p	Rapgefl1	Mouse	96	Rap guanine nucleotide exchange factor (GEF)-like 1	miRNA	mRNA	2	2
+miR-214-5p	Nxf1	Mouse	96	nuclear RNA export factor 1	miRNA	mRNA	1	2
+miR-214-5p	Trib1	Mouse	96	tribbles pseudokinase 1	miRNA	mRNA	1	1
+miR-29c-3p	Zfp282	Mouse	96	zinc finger protein 282	miRNA	mRNA	1	1
+miR-29c-3p	Rnd3	Mouse	96	Rho family GTPase 3	miRNA	mRNA	1	2
+miR-29c-3p	Atp1b4	Mouse	96	ATPase, (Na+)/K+ transporting, beta 4 polypeptide	miRNA	mRNA	2	2
+miR-29c-3p	Lif	Mouse	96	leukemia inhibitory factor	miRNA	mRNA	1	2
+miR-29c-3p	Ppic	Mouse	96	peptidylprolyl isomerase C	miRNA	mRNA	1	2
+miR-29c-3p	Trib2	Mouse	96	tribbles pseudokinase 2	miRNA	mRNA	1	2
+miR-29c-3p	Hbp1	Mouse	96	high mobility group box transcription factor 1	miRNA	mRNA	1	2
+miR-29c-3p	Slc25a3	Mouse	96	solute carrier family 25 (mitochondrial carrier, phosphate carrier), member 3	miRNA	mRNA	1	1
+miR-29c-3p	Taf5	Mouse	96	TATA-box binding protein associated factor 5	miRNA	mRNA	1	2
+miR-29c-3p	Dio2	Mouse	96	deiodinase, iodothyronine, type II	miRNA	mRNA	1	2
+miR-29c-3p	Adamts9	Mouse	96	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 9	miRNA	mRNA	1	2
+miR-29c-3p	Dgkd	Mouse	96	diacylglycerol kinase, delta	miRNA	mRNA	1	2
+miR-29c-3p	Tll1	Mouse	96	tolloid-like	miRNA	mRNA	2	3
+miR-29c-3p	Kmt5c	Mouse	96	lysine methyltransferase 5C	miRNA	mRNA	1	2
+miR-29c-3p	Kdm5b	Mouse	96	lysine (K)-specific demethylase 5B	miRNA	mRNA	1	2
+miR-29c-3p	Robo1	Mouse	96	roundabout guidance receptor 1	miRNA	mRNA	1	2
+miR-29c-3p	Stard8	Mouse	96	START domain containing 8	miRNA	mRNA	1	1
+miR-29c-3p	Nsd1	Mouse	96	nuclear receptor-binding SET-domain protein 1	miRNA	mRNA	1	2
+miR-29c-3p	Igsf9b	Mouse	96	immunoglobulin superfamily, member 9B	miRNA	mRNA	1	1
+miR-29c-3p	Traf4	Mouse	96	TNF receptor associated factor 4	miRNA	mRNA	1	2
+miR-29c-3p	Chsy1	Mouse	96	chondroitin sulfate synthase 1	miRNA	mRNA	1	2
+miR-29c-3p	Clock	Mouse	96	circadian locomotor output cycles kaput	miRNA	mRNA	1	2
+miR-29c-3p	Dusp2	Mouse	96	dual specificity phosphatase 2	miRNA	mRNA	1	1
+miR-29c-3p	Bach2	Mouse	96	BTB and CNC homology, basic leucine zipper transcription factor 2	miRNA	mRNA	1	1
+miR-29c-3p	Cdk6	Mouse	96	cyclin-dependent kinase 6	miRNA	mRNA	1	2
+miR-320-3p	Smurf2	Mouse	96	SMAD specific E3 ubiquitin protein ligase 2	miRNA	mRNA	2	1
+miR-320-3p	Cpd	Mouse	96	carboxypeptidase D	miRNA	mRNA	2	1
+miR-320-3p	Ctbs	Mouse	96	chitobiase	miRNA	mRNA	1	1
+miR-320-3p	Zfp512	Mouse	96	zinc finger protein 512	miRNA	mRNA	1	1
+miR-320-3p	Dcc	Mouse	96	deleted in colorectal carcinoma	miRNA	mRNA	1	1
+miR-320-3p	Pbx1	Mouse	96	pre B cell leukemia homeobox 1	miRNA	mRNA	1	1
+miR-320-3p	Cnot6l	Mouse	96	CCR4-NOT transcription complex, subunit 6-like	miRNA	mRNA	4	2
+miR-499-5p	Vav3	Mouse	96	vav 3 oncogene	miRNA	mRNA	1	2
+miR-499-5p	Rcn2	Mouse	96	reticulocalbin 2	miRNA	mRNA	1	2
+miR-499-5p	Nat1	Mouse	96	N-acetyl transferase 1	miRNA	mRNA	1	1
+miR-140-3p	Atl2	Mouse	95	atlastin GTPase 2	miRNA	mRNA	1	1
+miR-140-3p	Relch	Mouse	95	RAB11 binding and LisH domain, coiled-coil and HEAT repeat containing	miRNA	mRNA	1	1
+miR-140-3p	Tra2a	Mouse	95	transformer 2 alpha	miRNA	mRNA	1	1
+miR-140-3p	Mecp2	Mouse	95	methyl CpG binding protein 2	miRNA	mRNA	1	1
+miR-140-3p	Plxna1	Mouse	95	plexin A1	miRNA	mRNA	1	1
+miR-15b-5p	Kif1b	Mouse	95	kinesin family member 1B	miRNA	mRNA	1	2
+miR-15b-5p	Reck	Mouse	95	reversion-inducing-cysteine-rich protein with kazal motifs	miRNA	mRNA	1	3
+miR-15b-5p	Chd2	Mouse	95	chromodomain helicase DNA binding protein 2	miRNA	mRNA	2	2
+miR-15b-5p	Nup210	Mouse	95	nucleoporin 210	miRNA	mRNA	1	2
+miR-15b-5p	Fermt2	Mouse	95	fermitin family member 2	miRNA	mRNA	1	2
+miR-15b-5p	Setd3	Mouse	95	SET domain containing 3	miRNA	mRNA	1	2
+miR-15b-5p	Cops7b	Mouse	95	COP9 signalosome subunit 7B	miRNA	mRNA	1	1
+miR-15b-5p	Krtap26-1	Mouse	95	keratin associated protein 26-1	miRNA	mRNA	1	1
+miR-15b-5p	Eya1	Mouse	95	EYA transcriptional coactivator and phosphatase 1	miRNA	mRNA	1	2
+miR-15b-5p	Trp53inp2	Mouse	95	transformation related protein 53 inducible nuclear protein 2	miRNA	mRNA	1	1
+miR-15b-5p	Slit2	Mouse	95	slit guidance ligand 2	miRNA	mRNA	1	3
+miR-15b-5p	Nol4l	Mouse	95	nucleolar protein 4-like	miRNA	mRNA	1	1
+miR-15b-5p	Pwwp2b	Mouse	95	PWWP domain containing 2B	miRNA	mRNA	1	2
+miR-15b-5p	Casr	Mouse	95	calcium-sensing receptor	miRNA	mRNA	1	2
+miR-15b-5p	Cdc25a	Mouse	95	cell division cycle 25A	miRNA	mRNA	1	2
+miR-15b-5p	Mybl1	Mouse	95	myeloblastosis oncogene-like 1	miRNA	mRNA	1	2
+miR-15b-5p	Eif3a	Mouse	95	eukaryotic translation initiation factor 3, subunit A	miRNA	mRNA	1	1
+miR-15b-5p	Fbxw7	Mouse	95	F-box and WD-40 domain protein 7	miRNA	mRNA	1	2
+miR-15b-5p	Nfatc3	Mouse	95	nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 3	miRNA	mRNA	1	2
+miR-15b-5p	Wnt3a	Mouse	95	wingless-type MMTV integration site family, member 3A	miRNA	mRNA	1	2
+miR-15b-5p	Tlk1	Mouse	95	tousled-like kinase 1	miRNA	mRNA	1	3
+miR-15b-5p	Sptbn2	Mouse	95	spectrin beta, non-erythrocytic 2	miRNA	mRNA	1	2
+miR-15b-5p	Lats1	Mouse	95	large tumor suppressor	miRNA	mRNA	1	2
+miR-15b-5p	Ncs1	Mouse	95	neuronal calcium sensor 1	miRNA	mRNA	1	2
+miR-15b-5p	Kif23	Mouse	95	kinesin family member 23	miRNA	mRNA	1	3
+miR-15b-5p	Pafah1b1	Mouse	95	platelet-activating factor acetylhydrolase, isoform 1b, subunit 1	miRNA	mRNA	1	3
+miR-15b-5p	Kif5b	Mouse	95	kinesin family member 5B	miRNA	mRNA	1	2
+miR-193b-3p	Spata7	Mouse	95	spermatogenesis associated 7	miRNA	mRNA	1	2
+miR-193b-3p	Gba2	Mouse	95	glucosidase beta 2	miRNA	mRNA	1	2
+miR-199a-3p	Lrp2	Mouse	95	low density lipoprotein receptor-related protein 2	miRNA	mRNA	1	3
+miR-199a-3p	Erbb4	Mouse	95	erb-b2 receptor tyrosine kinase 4	miRNA	mRNA	2	3
+miR-1b-5p	2310030G06Rik	Mouse	95	RIKEN cDNA 2310030G06 gene	miRNA	mRNA	1	1
+miR-1b-5p	Cul3	Mouse	95	cullin 3	miRNA	mRNA	1	1
+miR-1b-5p	Kat6a	Mouse	95	K(lysine) acetyltransferase 6A	miRNA	mRNA	1	1
+miR-1b-5p	Zfp729b	Mouse	95	zinc finger protein 729b	miRNA	mRNA	1	1
+miR-214-3p	Nufip2	Mouse	95	nuclear fragile X mental retardation protein interacting protein 2	miRNA	mRNA	2	2
+miR-214-3p	Zbtb40	Mouse	95	zinc finger and BTB domain containing 40	miRNA	mRNA	1	1
+miR-214-3p	Peli3	Mouse	95	pellino 3	miRNA	mRNA	1	2
+miR-214-3p	Tmem33	Mouse	95	transmembrane protein 33	miRNA	mRNA	1	1
+miR-214-3p	Stim2	Mouse	95	stromal interaction molecule 2	miRNA	mRNA	1	1
+miR-214-3p	Hmg20a	Mouse	95	high mobility group 20A	miRNA	mRNA	1	1
+miR-214-3p	1810013L24Rik	Mouse	95	RIKEN cDNA 1810013L24 gene	miRNA	mRNA	2	1
+miR-214-3p	Tanc2	Mouse	95	tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 2	miRNA	mRNA	1	1
+miR-214-3p	Myoz3	Mouse	95	myozenin 3	miRNA	mRNA	1	1
+miR-214-5p	Lypd1	Mouse	95	Ly6/Plaur domain containing 1	miRNA	mRNA	1	1
+miR-214-5p	Kdm2a	Mouse	95	lysine (K)-specific demethylase 2A	miRNA	mRNA	1	2
+miR-29c-3p	Col4a2	Mouse	95	collagen, type IV, alpha 2	miRNA	mRNA	1	2
+miR-29c-3p	Ccnyl1	Mouse	95	cyclin Y-like 1	miRNA	mRNA	1	2
+miR-29c-3p	Col15a1	Mouse	95	collagen, type XV, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	Map6	Mouse	95	microtubule-associated protein 6	miRNA	mRNA	1	2
+miR-29c-3p	Tarbp1	Mouse	95	TAR RNA binding protein 1	miRNA	mRNA	1	1
+miR-29c-3p	Pcdha8	Mouse	95	protocadherin alpha 8	miRNA	mRNA	1	2
+miR-29c-3p	Slc43a2	Mouse	95	solute carrier family 43, member 2	miRNA	mRNA	1	1
+miR-29c-3p	Glis2	Mouse	95	GLIS family zinc finger 2	miRNA	mRNA	1	1
+miR-29c-3p	Col1a1	Mouse	95	collagen, type I, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	Adam19	Mouse	95	a disintegrin and metallopeptidase domain 19 (meltrin beta)	miRNA	mRNA	1	1
+miR-29c-3p	Eomes	Mouse	95	eomesodermin	miRNA	mRNA	1	1
+miR-29c-3p	Elf2	Mouse	95	E74-like factor 2	miRNA	mRNA	1	1
+miR-29c-3p	Timd2	Mouse	95	T cell immunoglobulin and mucin domain containing 2	miRNA	mRNA	1	1
+miR-29c-3p	Ankrd13b	Mouse	95	ankyrin repeat domain 13b	miRNA	mRNA	2	2
+miR-320-3p	Rasa1	Mouse	95	RAS p21 protein activator 1	miRNA	mRNA	1	1
+miR-320-3p	Satb2	Mouse	95	special AT-rich sequence binding protein 2	miRNA	mRNA	1	1
+miR-320-3p	Cdh20	Mouse	95	cadherin 20	miRNA	mRNA	1	1
+miR-320-3p	Arhgap44	Mouse	95	Rho GTPase activating protein 44	miRNA	mRNA	1	1
+miR-499-5p	Snrk	Mouse	95	SNF related kinase	miRNA	mRNA	1	2
+miR-499-5p	Stmnd1	Mouse	95	stathmin domain containing 1	miRNA	mRNA	1	1
+miR-499-5p	Rc3h1	Mouse	95	RING CCCH (C3H) domains 1	miRNA	mRNA	2	2
+miR-499-5p	Zeb2	Mouse	95	zinc finger E-box binding homeobox 2	miRNA	mRNA	1	1
+miR-499-5p	Aurkb	Mouse	95	aurora kinase B	miRNA	mRNA	1	1
+miR-499-5p	Cnot6l	Mouse	95	CCR4-NOT transcription complex, subunit 6-like	miRNA	mRNA	4	2
+miR-499-5p	Gpr174	Mouse	95	G protein-coupled receptor 174	miRNA	mRNA	1	1
+miR-499-5p	Zik1	Mouse	95	zinc finger protein interacting with K protein 1	miRNA	mRNA	1	1
+miR-140-3p	Pcdh8	Mouse	94	protocadherin 8	miRNA	mRNA	1	2
+miR-140-3p	Ndst1	Mouse	94	N-deacetylase/N-sulfotransferase (heparan glucosaminyl) 1	miRNA	mRNA	1	2
+miR-140-3p	Rasip1	Mouse	94	Ras interacting protein 1	miRNA	mRNA	1	1
+miR-140-3p	Slain2	Mouse	94	SLAIN motif family, member 2	miRNA	mRNA	1	2
+miR-140-3p	D5Ertd579e	Mouse	94	DNA segment, Chr 5, ERATO Doi 579, expressed	miRNA	mRNA	1	1
+miR-140-3p	Zfp781	Mouse	94	zinc finger protein 781	miRNA	mRNA	1	1
+miR-15b-5p	Zbtb44	Mouse	94	zinc finger and BTB domain containing 44	miRNA	mRNA	1	2
+miR-15b-5p	Ddx3x	Mouse	94	DEAD/H (Asp-Glu-Ala-Asp/His) box polypeptide 3, X-linked	miRNA	mRNA	2	2
+miR-15b-5p	Med1	Mouse	94	mediator complex subunit 1	miRNA	mRNA	1	1
+miR-15b-5p	Tgfbr3	Mouse	94	transforming growth factor, beta receptor III	miRNA	mRNA	1	3
+miR-15b-5p	Nuak2	Mouse	94	NUAK family, SNF1-like kinase, 2	miRNA	mRNA	1	2
+miR-15b-5p	Cpsf7	Mouse	94	cleavage and polyadenylation specific factor 7	miRNA	mRNA	1	1
+miR-15b-5p	Amotl1	Mouse	94	angiomotin-like 1	miRNA	mRNA	1	2
+miR-15b-5p	Cacna2d1	Mouse	94	calcium channel, voltage-dependent, alpha2/delta subunit 1	miRNA	mRNA	1	2
+miR-15b-5p	Dync1li2	Mouse	94	dynein, cytoplasmic 1 light intermediate chain 2	miRNA	mRNA	1	1
+miR-15b-5p	Plcxd2	Mouse	94	phosphatidylinositol-specific phospholipase C, X domain containing 2	miRNA	mRNA	1	1
+miR-15b-5p	Zfp622	Mouse	94	zinc finger protein 622	miRNA	mRNA	1	2
+miR-15b-5p	Atxn2	Mouse	94	ataxin 2	miRNA	mRNA	1	2
+miR-15b-5p	Sall4	Mouse	94	spalt like transcription factor 4	miRNA	mRNA	2	2
+miR-15b-5p	Socs6	Mouse	94	suppressor of cytokine signaling 6	miRNA	mRNA	1	3
+miR-15b-5p	Zbtb34	Mouse	94	zinc finger and BTB domain containing 34	miRNA	mRNA	2	2
+miR-15b-5p	Tab3	Mouse	94	TGF-beta activated kinase 1/MAP3K7 binding protein 3	miRNA	mRNA	2	1
+miR-15b-5p	Axin2	Mouse	94	axin 2	miRNA	mRNA	1	2
+miR-15b-5p	Armcx6	Mouse	94	armadillo repeat containing, X-linked 6	miRNA	mRNA	1	1
+miR-15b-5p	Ash1l	Mouse	94	ASH1 like histone lysine methyltransferase	miRNA	mRNA	1	3
+miR-15b-5p	Entpd7	Mouse	94	ectonucleoside triphosphate diphosphohydrolase 7	miRNA	mRNA	1	2
+miR-15b-5p	Atp1b4	Mouse	94	ATPase, (Na+)/K+ transporting, beta 4 polypeptide	miRNA	mRNA	2	2
+miR-15b-5p	Dixdc1	Mouse	94	DIX domain containing 1	miRNA	mRNA	1	2
+miR-15b-5p	Fmn2	Mouse	94	formin 2	miRNA	mRNA	1	1
+miR-15b-5p	Sez6l	Mouse	94	seizure related 6 homolog like	miRNA	mRNA	1	1
+miR-15b-5p	Ell	Mouse	94	elongation factor RNA polymerase II	miRNA	mRNA	1	2
+miR-15b-5p	Caprin1	Mouse	94	cell cycle associated protein 1	miRNA	mRNA	1	1
+miR-15b-5p	Map2k1	Mouse	94	mitogen-activated protein kinase kinase 1	miRNA	mRNA	1	3
+miR-15b-5p	Kif21a	Mouse	94	kinesin family member 21A	miRNA	mRNA	1	2
+miR-15b-5p	Usp42	Mouse	94	ubiquitin specific peptidase 42	miRNA	mRNA	1	3
+miR-15b-5p	Klhl2	Mouse	94	kelch-like 2, Mayven	miRNA	mRNA	1	2
+miR-15b-5p	Mgat4a	Mouse	94	mannoside acetylglucosaminyltransferase 4, isoenzyme A	miRNA	mRNA	1	3
+miR-193b-3p	Erbb4	Mouse	94	erb-b2 receptor tyrosine kinase 4	miRNA	mRNA	2	3
+miR-199a-3p	Aplp2	Mouse	94	amyloid beta (A4) precursor-like protein 2	miRNA	mRNA	1	3
+miR-199a-3p	Galnt7	Mouse	94	polypeptide N-acetylgalactosaminyltransferase 7	miRNA	mRNA	2	2
+miR-199a-3p	Cd2ap	Mouse	94	CD2-associated protein	miRNA	mRNA	2	2
+miR-199a-3p	Sinhcaf	Mouse	94	SIN3-HDAC complex associated factor	miRNA	mRNA	2	3
+miR-199a-3p	Gna12	Mouse	94	guanine nucleotide binding protein, alpha 12	miRNA	mRNA	1	3
+miR-199a-3p	Slc39a10	Mouse	94	solute carrier family 39 (zinc transporter), member 10	miRNA	mRNA	2	3
+miR-199a-3p	4933434E20Rik	Mouse	94	RIKEN cDNA 4933434E20 gene	miRNA	mRNA	1	1
+miR-199a-3p	Ppp2r5e	Mouse	94	protein phosphatase 2, regulatory subunit B', epsilon	miRNA	mRNA	1	2
+miR-199a-3p	Raph1	Mouse	94	Ras association (RalGDS/AF-6) and pleckstrin homology domains 1	miRNA	mRNA	1	2
+miR-199a-3p	Map3k4	Mouse	94	mitogen-activated protein kinase kinase kinase 4	miRNA	mRNA	1	2
+miR-1b-5p	Krit1	Mouse	94	KRIT1, ankyrin repeat containing	miRNA	mRNA	1	1
+miR-1b-5p	Snx27	Mouse	94	sorting nexin family member 27	miRNA	mRNA	1	1
+miR-1b-5p	Fam104a	Mouse	94	family with sequence similarity 104, member A	miRNA	mRNA	1	1
+miR-1b-5p	Zcchc18	Mouse	94	zinc finger, CCHC domain containing 18	miRNA	mRNA	1	1
+miR-1b-5p	Eme1	Mouse	94	essential meiotic structure-specific endonuclease 1	miRNA	mRNA	1	1
+miR-1b-5p	Ccdc169	Mouse	94	coiled-coil domain containing 169	miRNA	mRNA	1	1
+miR-1b-5p	D1Ertd622e	Mouse	94	DNA segment, Chr 1, ERATO Doi 622, expressed	miRNA	mRNA	1	1
+miR-1b-5p	Rasa2	Mouse	94	RAS p21 protein activator 2	miRNA	mRNA	1	1
+miR-1b-5p	AI597479	Mouse	94	expressed sequence AI597479	miRNA	mRNA	1	1
+miR-1b-5p	Cnot6l	Mouse	94	CCR4-NOT transcription complex, subunit 6-like	miRNA	mRNA	4	2
+miR-214-3p	Sec24c	Mouse	94	Sec24 related gene family, member C (S. cerevisiae)	miRNA	mRNA	1	3
+miR-214-3p	Fgd5	Mouse	94	FYVE, RhoGEF and PH domain containing 5	miRNA	mRNA	1	1
+miR-214-3p	Zbtb10	Mouse	94	zinc finger and BTB domain containing 10	miRNA	mRNA	2	1
+miR-214-3p	1700010I14Rik	Mouse	94	RIKEN cDNA 1700010I14 gene	miRNA	mRNA	1	1
+miR-214-3p	Jakmip2	Mouse	94	janus kinase and microtubule interacting protein 2	miRNA	mRNA	1	2
+miR-214-3p	Lsm12	Mouse	94	LSM12 homolog	miRNA	mRNA	1	3
+miR-214-3p	Baz2a	Mouse	94	bromodomain adjacent to zinc finger domain, 2A	miRNA	mRNA	1	2
+miR-29c-3p	Smurf2	Mouse	94	SMAD specific E3 ubiquitin protein ligase 2	miRNA	mRNA	2	1
+miR-29c-3p	Lin7a	Mouse	94	lin-7 homolog A (C. elegans)	miRNA	mRNA	1	2
+miR-29c-3p	Pdik1l	Mouse	94	PDLIM1 interacting kinase 1 like	miRNA	mRNA	1	2
+miR-29c-3p	Morf4l2	Mouse	94	mortality factor 4 like 2	miRNA	mRNA	1	1
+miR-29c-3p	Mark3	Mouse	94	MAP/microtubule affinity regulating kinase 3	miRNA	mRNA	1	1
+miR-29c-3p	Cd276	Mouse	94	CD276 antigen	miRNA	mRNA	1	2
+miR-29c-3p	Tmem183a	Mouse	94	transmembrane protein 183A	miRNA	mRNA	1	2
+miR-29c-3p	Kif26a	Mouse	94	kinesin family member 26A	miRNA	mRNA	1	2
+miR-29c-3p	Nav2	Mouse	94	neuron navigator 2	miRNA	mRNA	1	2
+miR-29c-3p	Rapgefl1	Mouse	94	Rap guanine nucleotide exchange factor (GEF)-like 1	miRNA	mRNA	2	2
+miR-29c-3p	Bmf	Mouse	94	BCL2 modifying factor	miRNA	mRNA	1	1
+miR-29c-3p	Serpinh1	Mouse	94	serine (or cysteine) peptidase inhibitor, clade H, member 1	miRNA	mRNA	1	2
+miR-29c-3p	Foxj2	Mouse	94	forkhead box J2	miRNA	mRNA	1	2
+miR-29c-3p	Trim63	Mouse	94	tripartite motif-containing 63	miRNA	mRNA	1	2
+miR-29c-3p	Ireb2	Mouse	94	iron responsive element binding protein 2	miRNA	mRNA	1	2
+miR-29c-3p	Vegfa	Mouse	94	vascular endothelial growth factor A	miRNA	mRNA	2	3
+miR-320-3p	Fam122a	Mouse	94	family with sequence similarity 122, member A	miRNA	mRNA	1	1
+miR-320-3p	Mllt3	Mouse	94	myeloid/lymphoid or mixed-lineage leukemia; translocated to, 3	miRNA	mRNA	1	1
+miR-320-3p	Otud6b	Mouse	94	OTU domain containing 6B	miRNA	mRNA	2	1
+miR-320-3p	Fign	Mouse	94	fidgetin	miRNA	mRNA	1	1
+miR-320-3p	Zfyve16	Mouse	94	zinc finger, FYVE domain containing 16	miRNA	mRNA	1	1
+miR-320-3p	Hsf3	Mouse	94	heat shock transcription factor 3	miRNA	mRNA	1	1
+miR-320-3p	Dcp1a	Mouse	94	decapping mRNA 1A	miRNA	mRNA	2	2
+miR-320-3p	Blcap	Mouse	94	bladder cancer associated protein	miRNA	mRNA	1	1
+miR-320-3p	Cdk13	Mouse	94	cyclin-dependent kinase 13	miRNA	mRNA	1	2
+miR-320-3p	Armc1	Mouse	94	armadillo repeat containing 1	miRNA	mRNA	1	2
+miR-320-3p	Gabpb2	Mouse	94	GA repeat binding protein, beta 2	miRNA	mRNA	1	1
+miR-320-3p	Fem1b	Mouse	94	feminization 1 homolog b (C. elegans)	miRNA	mRNA	2	2
+miR-499-5p	Tmbim6	Mouse	94	transmembrane BAX inhibitor motif containing 6	miRNA	mRNA	1	1
+miR-499-5p	Ube2v1	Mouse	94	ubiquitin-conjugating enzyme E2 variant 1	miRNA	mRNA	1	3
+miR-140-3p	Tgfb3	Mouse	93	transforming growth factor, beta 3	miRNA	mRNA	1	1
+miR-140-3p	Cntn6	Mouse	93	contactin 6	miRNA	mRNA	1	1
+miR-140-3p	Gm6710	Mouse	93	predicted gene 6710	miRNA	mRNA	1	1
+miR-140-3p	Pcdh17	Mouse	93	protocadherin 17	miRNA	mRNA	1	3
+miR-140-3p	Adam10	Mouse	93	a disintegrin and metallopeptidase domain 10	miRNA	mRNA	2	2
+miR-140-3p	Ugt2b35	Mouse	93	UDP glucuronosyltransferase 2 family, polypeptide B35	miRNA	mRNA	1	1
+miR-140-3p	Gprin3	Mouse	93	GPRIN family member 3	miRNA	mRNA	1	1
+miR-15b-5p	Ghr	Mouse	93	growth hormone receptor	miRNA	mRNA	1	2
+miR-15b-5p	Krtap11-1	Mouse	93	keratin associated protein 11-1	miRNA	mRNA	1	2
+miR-15b-5p	Polr3f	Mouse	93	polymerase (RNA) III (DNA directed) polypeptide F	miRNA	mRNA	1	2
+miR-15b-5p	Usp14	Mouse	93	ubiquitin specific peptidase 14	miRNA	mRNA	1	1
+miR-15b-5p	Myt1l	Mouse	93	myelin transcription factor 1-like	miRNA	mRNA	1	1
+miR-15b-5p	Atp7a	Mouse	93	ATPase, Cu++ transporting, alpha polypeptide	miRNA	mRNA	1	1
+miR-15b-5p	Ret	Mouse	93	ret proto-oncogene	miRNA	mRNA	1	1
+miR-15b-5p	1700037H04Rik	Mouse	93	RIKEN cDNA 1700037H04 gene	miRNA	mRNA	1	1
+miR-15b-5p	Sesn1	Mouse	93	sestrin 1	miRNA	mRNA	1	1
+miR-15b-5p	Cdca4	Mouse	93	cell division cycle associated 4	miRNA	mRNA	1	3
+miR-15b-5p	Znrf2	Mouse	93	zinc and ring finger 2	miRNA	mRNA	1	2
+miR-15b-5p	Nos1	Mouse	93	nitric oxide synthase 1, neuronal	miRNA	mRNA	1	2
+miR-15b-5p	Arfgap2	Mouse	93	ADP-ribosylation factor GTPase activating protein 2	miRNA	mRNA	1	1
+miR-15b-5p	Plekhh1	Mouse	93	pleckstrin homology domain containing, family H (with MyTH4 domain) member 1	miRNA	mRNA	1	1
+miR-15b-5p	Phactr2	Mouse	93	phosphatase and actin regulator 2	miRNA	mRNA	1	1
+miR-15b-5p	Omg	Mouse	93	oligodendrocyte myelin glycoprotein	miRNA	mRNA	1	2
+miR-15b-5p	Tbpl1	Mouse	93	TATA box binding protein-like 1	miRNA	mRNA	1	3
+miR-15b-5p	Mex3c	Mouse	93	mex3 RNA binding family member C	miRNA	mRNA	1	2
+miR-193b-3p	Ing5	Mouse	93	inhibitor of growth family, member 5	miRNA	mRNA	1	1
+miR-193b-3p	Vash1	Mouse	93	vasohibin 1	miRNA	mRNA	1	1
+miR-199a-3p	Itgb8	Mouse	93	integrin beta 8	miRNA	mRNA	1	2
+miR-199a-3p	Sema3a	Mouse	93	sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3A	miRNA	mRNA	2	2
+miR-199a-3p	Kdm6a	Mouse	93	lysine (K)-specific demethylase 6A	miRNA	mRNA	2	2
+miR-199a-3p	G3bp2	Mouse	93	GTPase activating protein (SH3 domain) binding protein 2	miRNA	mRNA	1	2
+miR-199a-3p	Katnbl1	Mouse	93	katanin p80 subunit B like 1	miRNA	mRNA	1	2
+miR-1b-3p	Suox	Mouse	93	sulfite oxidase	miRNA	mRNA	1	1
+miR-1b-3p	Zc3hav1	Mouse	93	zinc finger CCCH type, antiviral 1	miRNA	mRNA	1	1
+miR-1b-5p	Lin52	Mouse	93	lin-52 homolog (C. elegans)	miRNA	mRNA	1	1
+miR-1b-5p	Brms1l	Mouse	93	breast cancer metastasis-suppressor 1-like	miRNA	mRNA	1	1
+miR-1b-5p	Fsd1l	Mouse	93	fibronectin type III and SPRY domain containing 1-like	miRNA	mRNA	1	1
+miR-1b-5p	Sp1	Mouse	93	trans-acting transcription factor 1	miRNA	mRNA	1	2
+miR-1b-5p	Tpbpa	Mouse	93	trophoblast specific protein alpha	miRNA	mRNA	1	1
+miR-1b-5p	Lin9	Mouse	93	lin-9 homolog (C. elegans)	miRNA	mRNA	1	1
+miR-1b-5p	Upp2	Mouse	93	uridine phosphorylase 2	miRNA	mRNA	1	1
+miR-1b-5p	Zfp503	Mouse	93	zinc finger protein 503	miRNA	mRNA	1	1
+miR-1b-5p	Gabra2	Mouse	93	gamma-aminobutyric acid (GABA) A receptor, subunit alpha 2	miRNA	mRNA	1	1
+miR-1b-5p	Hivep1	Mouse	93	human immunodeficiency virus type I enhancer binding protein 1	miRNA	mRNA	1	1
+miR-1b-5p	Trhde	Mouse	93	TRH-degrading enzyme	miRNA	mRNA	1	1
+miR-214-3p	Zfp710	Mouse	93	zinc finger protein 710	miRNA	mRNA	1	1
+miR-214-3p	Prr14l	Mouse	93	proline rich 14-like	miRNA	mRNA	1	2
+miR-214-3p	Fgf14	Mouse	93	fibroblast growth factor 14	miRNA	mRNA	1	2
+miR-214-3p	Myo18a	Mouse	93	myosin XVIIIA	miRNA	mRNA	1	1
+miR-214-3p	Enox2	Mouse	93	ecto-NOX disulfide-thiol exchanger 2	miRNA	mRNA	1	1
+miR-214-3p	Fchsd1	Mouse	93	FCH and double SH3 domains 1	miRNA	mRNA	1	1
+miR-214-3p	Mllt10	Mouse	93	myeloid/lymphoid or mixed-lineage leukemia; translocated to, 10	miRNA	mRNA	1	2
+miR-214-5p	Arhgap28	Mouse	93	Rho GTPase activating protein 28	miRNA	mRNA	1	2
+miR-29c-3p	Tpk1	Mouse	93	thiamine pyrophosphokinase	miRNA	mRNA	1	2
+miR-29c-3p	Lysmd1	Mouse	93	LysM, putative peptidoglycan-binding, domain containing 1	miRNA	mRNA	1	2
+miR-29c-3p	Proser1	Mouse	93	proline and serine rich 1	miRNA	mRNA	1	1
+miR-29c-3p	N4bp2l1	Mouse	93	NEDD4 binding protein 2-like 1	miRNA	mRNA	1	1
+miR-29c-3p	Amer1	Mouse	93	APC membrane recruitment 1	miRNA	mRNA	1	2
+miR-29c-3p	Rnf19a	Mouse	93	ring finger protein 19A	miRNA	mRNA	1	2
+miR-29c-3p	Fem1b	Mouse	93	feminization 1 homolog b (C. elegans)	miRNA	mRNA	2	2
+miR-29c-3p	Eva1b	Mouse	93	eva-1 homolog B (C. elegans)	miRNA	mRNA	1	1
+miR-29c-3p	Smtnl2	Mouse	93	smoothelin-like 2	miRNA	mRNA	1	1
+miR-29c-3p	Zbtb10	Mouse	93	zinc finger and BTB domain containing 10	miRNA	mRNA	2	1
+miR-29c-3p	Il1rap	Mouse	93	interleukin 1 receptor accessory protein	miRNA	mRNA	1	2
+miR-29c-3p	Dpysl5	Mouse	93	dihydropyrimidinase-like 5	miRNA	mRNA	1	1
+miR-29c-3p	Mycn	Mouse	93	v-myc avian myelocytomatosis viral related oncogene, neuroblastoma derived	miRNA	mRNA	1	2
+miR-29c-3p	Cldn1	Mouse	93	claudin 1	miRNA	mRNA	1	3
+miR-29c-3p	Dlg2	Mouse	93	discs large MAGUK scaffold protein 2	miRNA	mRNA	1	1
+miR-29c-3p	Dnmt3b	Mouse	93	DNA methyltransferase 3B	miRNA	mRNA	1	2
+miR-29c-3p	Mapkbp1	Mouse	93	mitogen-activated protein kinase binding protein 1	miRNA	mRNA	1	2
+miR-29c-3p	Col6a3	Mouse	93	collagen, type VI, alpha 3	miRNA	mRNA	1	2
+miR-29c-3p	Pxdn	Mouse	93	peroxidasin	miRNA	mRNA	1	2
+miR-29c-3p	Narf	Mouse	93	nuclear prelamin A recognition factor	miRNA	mRNA	1	1
+miR-29c-3p	Tfeb	Mouse	93	transcription factor EB	miRNA	mRNA	1	2
+miR-320-3p	Ywhah	Mouse	93	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide	miRNA	mRNA	2	2
+miR-320-3p	Gnai1	Mouse	93	guanine nucleotide binding protein (G protein), alpha inhibiting 1	miRNA	mRNA	1	1
+miR-320-3p	Pcdha9	Mouse	93	protocadherin alpha 9	miRNA	mRNA	2	2
+miR-320-3p	Arl8b	Mouse	93	ADP-ribosylation factor-like 8B	miRNA	mRNA	1	2
+miR-320-3p	Hspa4	Mouse	93	heat shock protein 4	miRNA	mRNA	1	2
+miR-320-3p	Pcdha5	Mouse	93	protocadherin alpha 5	miRNA	mRNA	2	2
+miR-320-3p	Pcdha10	Mouse	93	protocadherin alpha 10	miRNA	mRNA	2	2
+miR-320-3p	Nufip2	Mouse	93	nuclear fragile X mental retardation protein interacting protein 2	miRNA	mRNA	2	2
+miR-320-3p	Pcdha7	Mouse	93	protocadherin alpha 7	miRNA	mRNA	2	2
+miR-320-3p	Pcdha1	Mouse	93	protocadherin alpha 1	miRNA	mRNA	2	2
+miR-320-3p	Pcdha6	Mouse	93	protocadherin alpha 6	miRNA	mRNA	2	2
+miR-320-3p	Pcdha12	Mouse	93	protocadherin alpha 12	miRNA	mRNA	2	2
+miR-320-3p	Pcdha2	Mouse	93	protocadherin alpha 2	miRNA	mRNA	2	2
+miR-320-3p	Ubr3	Mouse	93	ubiquitin protein ligase E3 component n-recognin 3	miRNA	mRNA	1	1
+miR-320-3p	Pcdhac2	Mouse	93	protocadherin alpha subfamily C, 2	miRNA	mRNA	2	2
+miR-320-3p	Prps1	Mouse	93	phosphoribosyl pyrophosphate synthetase 1	miRNA	mRNA	1	1
+miR-320-3p	Pcdha11	Mouse	93	protocadherin alpha 11	miRNA	mRNA	2	2
+miR-320-3p	Pcdhac1	Mouse	93	protocadherin alpha subfamily C, 1	miRNA	mRNA	2	2
+miR-320-3p	Pcdha4	Mouse	93	protocadherin alpha 4	miRNA	mRNA	2	3
+miR-320-3p	Pcdha3	Mouse	93	protocadherin alpha 3	miRNA	mRNA	2	2
+miR-499-5p	Lyg2	Mouse	93	lysozyme G-like 2	miRNA	mRNA	1	1
+miR-499-5p	Sh3kbp1	Mouse	93	SH3-domain kinase binding protein 1	miRNA	mRNA	1	1
+miR-499-5p	Ptbp2	Mouse	93	polypyrimidine tract binding protein 2	miRNA	mRNA	1	1
+miR-499-5p	H2afy	Mouse	93	H2A histone family, member Y	miRNA	mRNA	1	1
+miR-499-5p	Kdm7a	Mouse	93	lysine (K)-specific demethylase 7A	miRNA	mRNA	2	1
+miR-140-3p	Zc3h7b	Mouse	92	zinc finger CCCH type containing 7B	miRNA	mRNA	1	1
+miR-140-3p	Ccdc160	Mouse	92	coiled-coil domain containing 160	miRNA	mRNA	1	1
+miR-140-3p	Bsn	Mouse	92	bassoon	miRNA	mRNA	1	1
+miR-140-3p	Kctd11	Mouse	92	potassium channel tetramerisation domain containing 11	miRNA	mRNA	1	1
+miR-140-3p	Gpr149	Mouse	92	G protein-coupled receptor 149	miRNA	mRNA	1	1
+miR-140-3p	Fndc5	Mouse	92	fibronectin type III domain containing 5	miRNA	mRNA	1	2
+miR-15b-5p	Lrrc32	Mouse	92	leucine rich repeat containing 32	miRNA	mRNA	1	2
+miR-15b-5p	Plekhm3	Mouse	92	pleckstrin homology domain containing, family M, member 3	miRNA	mRNA	1	1
+miR-15b-5p	Usp15	Mouse	92	ubiquitin specific peptidase 15	miRNA	mRNA	1	1
+miR-15b-5p	Slc39a10	Mouse	92	solute carrier family 39 (zinc transporter), member 10	miRNA	mRNA	2	3
+miR-15b-5p	Rad23b	Mouse	92	RAD23 homolog B, nucleotide excision repair protein	miRNA	mRNA	1	2
+miR-15b-5p	Trank1	Mouse	92	tetratricopeptide repeat and ankyrin repeat containing 1	miRNA	mRNA	1	2
+miR-15b-5p	Sel1l3	Mouse	92	sel-1 suppressor of lin-12-like 3 (C. elegans)	miRNA	mRNA	1	2
+miR-15b-5p	Nlrx1	Mouse	92	NLR family member X1	miRNA	mRNA	1	2
+miR-15b-5p	Fgf7	Mouse	92	fibroblast growth factor 7	miRNA	mRNA	1	2
+miR-15b-5p	Cd2ap	Mouse	92	CD2-associated protein	miRNA	mRNA	2	2
+miR-15b-5p	Cdk5r1	Mouse	92	cyclin-dependent kinase 5, regulatory subunit 1 (p35)	miRNA	mRNA	1	2
+miR-15b-5p	Arhgap12	Mouse	92	Rho GTPase activating protein 12	miRNA	mRNA	1	1
+miR-15b-5p	Ccdc6	Mouse	92	coiled-coil domain containing 6	miRNA	mRNA	1	2
+miR-15b-5p	Prdm4	Mouse	92	PR domain containing 4	miRNA	mRNA	1	1
+miR-15b-5p	Abl2	Mouse	92	v-abl Abelson murine leukemia viral oncogene 2 (arg, Abelson-related gene)	miRNA	mRNA	1	2
+miR-15b-5p	Dll1	Mouse	92	delta like canonical Notch ligand 1	miRNA	mRNA	1	2
+miR-15b-5p	Gpr63	Mouse	92	G protein-coupled receptor 63	miRNA	mRNA	1	2
+miR-15b-5p	Vegfa	Mouse	92	vascular endothelial growth factor A	miRNA	mRNA	2	3
+miR-15b-5p	Gbp2b	Mouse	92	guanylate binding protein 2b	miRNA	mRNA	1	1
+miR-15b-5p	Pnpla6	Mouse	92	patatin-like phospholipase domain containing 6	miRNA	mRNA	1	1
+miR-15b-5p	Slc20a2	Mouse	92	solute carrier family 20, member 2	miRNA	mRNA	1	3
+miR-15b-5p	Dcp1a	Mouse	92	decapping mRNA 1A	miRNA	mRNA	2	2
+miR-15b-5p	Chek1	Mouse	92	checkpoint kinase 1	miRNA	mRNA	1	2
+miR-193b-3p	Otud6b	Mouse	92	OTU domain containing 6B	miRNA	mRNA	2	1
+miR-199a-3p	Nova1	Mouse	92	neuro-oncological ventral antigen 1	miRNA	mRNA	1	3
+miR-199a-3p	Rimklb	Mouse	92	ribosomal modification protein rimK-like family member B	miRNA	mRNA	1	1
+miR-199a-3p	Rbbp6	Mouse	92	retinoblastoma binding protein 6, ubiquitin ligase	miRNA	mRNA	1	1
+miR-199a-3p	Mucl2	Mouse	92	mucin-like 2	miRNA	mRNA	1	1
+miR-199a-3p	Cdk17	Mouse	92	cyclin-dependent kinase 17	miRNA	mRNA	2	3
+miR-199a-3p	Tgif2	Mouse	92	TGFB-induced factor homeobox 2	miRNA	mRNA	1	1
+miR-199a-3p	Adam10	Mouse	92	a disintegrin and metallopeptidase domain 10	miRNA	mRNA	2	2
+miR-1b-3p	Gbp10	Mouse	92	guanylate-binding protein 10	miRNA	mRNA	1	1
+miR-1b-3p	Elovl2	Mouse	92	elongation of very long chain fatty acids (FEN1/Elo2, SUR4/Elo3, yeast)-like 2	miRNA	mRNA	1	1
+miR-1b-3p	Atf7	Mouse	92	activating transcription factor 7	miRNA	mRNA	1	1
+miR-1b-5p	Six6	Mouse	92	sine oculis-related homeobox 6	miRNA	mRNA	1	1
+miR-1b-5p	Rnf44	Mouse	92	ring finger protein 44	miRNA	mRNA	1	1
+miR-1b-5p	Zfp446	Mouse	92	zinc finger protein 446	miRNA	mRNA	1	1
+miR-1b-5p	Ube3a	Mouse	92	ubiquitin protein ligase E3A	miRNA	mRNA	1	1
+miR-1b-5p	Gnl3l	Mouse	92	guanine nucleotide binding protein-like 3 (nucleolar)-like	miRNA	mRNA	1	1
+miR-1b-5p	Ubtd2	Mouse	92	ubiquitin domain containing 2	miRNA	mRNA	1	1
+miR-1b-5p	Npm1	Mouse	92	nucleophosmin 1	miRNA	mRNA	1	1
+miR-1b-5p	Csnk1g3	Mouse	92	casein kinase 1, gamma 3	miRNA	mRNA	1	1
+miR-1b-5p	Snai2	Mouse	92	snail family zinc finger 2	miRNA	mRNA	1	1
+miR-1b-5p	C530008M17Rik	Mouse	92	RIKEN cDNA C530008M17 gene	miRNA	mRNA	1	1
+miR-1b-5p	Fam196b	Mouse	92	family with sequence similarity 196, member B	miRNA	mRNA	1	1
+miR-1b-5p	Map10	Mouse	92	microtubule-associated protein 10	miRNA	mRNA	1	1
+miR-1b-5p	Asxl2	Mouse	92	additional sex combs like 2, transcriptional regulator	miRNA	mRNA	1	1
+miR-214-3p	D430041D05Rik	Mouse	92	RIKEN cDNA D430041D05 gene	miRNA	mRNA	1	1
+miR-214-3p	Crtac1	Mouse	92	cartilage acidic protein 1	miRNA	mRNA	1	1
+miR-214-3p	Kif7	Mouse	92	kinesin family member 7	miRNA	mRNA	1	1
+miR-214-3p	Pdcl2	Mouse	92	phosducin-like 2	miRNA	mRNA	1	1
+miR-214-3p	Rasgef1c	Mouse	92	RasGEF domain family, member 1C	miRNA	mRNA	1	2
+miR-214-3p	Slc16a1	Mouse	92	solute carrier family 16 (monocarboxylic acid transporters), member 1	miRNA	mRNA	1	1
+miR-214-3p	Ezh1	Mouse	92	enhancer of zeste 1 polycomb repressive complex 2 subunit	miRNA	mRNA	1	2
+miR-214-3p	Lrrc1	Mouse	92	leucine rich repeat containing 1	miRNA	mRNA	1	2
+miR-214-3p	Arl2	Mouse	92	ADP-ribosylation factor-like 2	miRNA	mRNA	2	3
+miR-214-3p	Cetn2	Mouse	92	centrin 2	miRNA	mRNA	1	1
+miR-214-3p	Pdrg1	Mouse	92	p53 and DNA damage regulated 1	miRNA	mRNA	1	1
+miR-214-5p	Kansl2	Mouse	92	KAT8 regulatory NSL complex subunit 2	miRNA	mRNA	1	1
+miR-29c-3p	Gid8	Mouse	92	GID complex subunit 8	miRNA	mRNA	1	1
+miR-29c-3p	Col22a1	Mouse	92	collagen, type XXII, alpha 1	miRNA	mRNA	1	2
+miR-29c-3p	Klhl28	Mouse	92	kelch-like 28	miRNA	mRNA	1	2
+miR-29c-3p	Pan2	Mouse	92	PAN2 poly(A) specific ribonuclease subunit	miRNA	mRNA	1	2
+miR-29c-3p	Pgap2	Mouse	92	post-GPI attachment to proteins 2	miRNA	mRNA	1	2
+miR-29c-3p	Pten	Mouse	92	phosphatase and tensin homolog	miRNA	mRNA	1	2
+miR-29c-3p	Nap1l3	Mouse	92	nucleosome assembly protein 1-like 3	miRNA	mRNA	1	1
+miR-29c-3p	Col4a6	Mouse	92	collagen, type IV, alpha 6	miRNA	mRNA	1	1
+miR-29c-3p	Col4a3	Mouse	92	collagen, type IV, alpha 3	miRNA	mRNA	1	1
+miR-29c-3p	Nup160	Mouse	92	nucleoporin 160	miRNA	mRNA	1	1
+miR-29c-3p	Erlin2	Mouse	92	ER lipid raft associated 2	miRNA	mRNA	2	2
+miR-29c-3p	Ttc9	Mouse	92	tetratricopeptide repeat domain 9	miRNA	mRNA	1	1
+miR-29c-3p	Nkapd1	Mouse	92	NKAP domain containing 1	miRNA	mRNA	1	1
+miR-29c-3p	Adamts6	Mouse	92	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 6	miRNA	mRNA	1	2
+miR-29c-3p	Eml4	Mouse	92	echinoderm microtubule associated protein like 4	miRNA	mRNA	1	1
+miR-29c-3p	Ddx3x	Mouse	92	DEAD/H (Asp-Glu-Ala-Asp/His) box polypeptide 3, X-linked	miRNA	mRNA	2	2
+miR-29c-3p	Rnpepl1	Mouse	92	arginyl aminopeptidase (aminopeptidase B)-like 1	miRNA	mRNA	1	1
+miR-29c-3p	Hdac4	Mouse	92	histone deacetylase 4	miRNA	mRNA	1	1
+miR-29c-3p	Pmp22	Mouse	92	peripheral myelin protein 22	miRNA	mRNA	1	2
+miR-29c-3p	Nfia	Mouse	92	nuclear factor I/A	miRNA	mRNA	1	2
+miR-320-3p	Qsox2	Mouse	92	quiescin Q6 sulfhydryl oxidase 2	miRNA	mRNA	1	1
+miR-320-3p	Rap2a	Mouse	92	RAS related protein 2a	miRNA	mRNA	1	1
+miR-320-3p	Hivep2	Mouse	92	human immunodeficiency virus type I enhancer binding protein 2	miRNA	mRNA	1	1
+miR-320-3p	Smarcc1	Mouse	92	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 1	miRNA	mRNA	1	1
+miR-320-3p	Kcns3	Mouse	92	potassium voltage-gated channel, delayed-rectifier, subfamily S, member 3	miRNA	mRNA	1	1
+miR-320-3p	Cnksr2	Mouse	92	connector enhancer of kinase suppressor of Ras 2	miRNA	mRNA	1	1
+miR-320-3p	Col4a3bp	Mouse	92	collagen, type IV, alpha 3 (Goodpasture antigen) binding protein	miRNA	mRNA	1	1
+miR-320-3p	Fgf12	Mouse	92	fibroblast growth factor 12	miRNA	mRNA	1	1
+miR-499-5p	Spns2	Mouse	92	spinster homolog 2	miRNA	mRNA	1	1
+miR-499-5p	Ptbp3	Mouse	92	polypyrimidine tract binding protein 3	miRNA	mRNA	1	1
+miR-499-5p	Shisa6	Mouse	92	shisa family member 6	miRNA	mRNA	1	1
+miR-499-5p	Lrch2	Mouse	92	leucine-rich repeats and calponin homology (CH) domain containing 2	miRNA	mRNA	1	1
+miR-499-5p	Elavl4	Mouse	92	ELAV like RNA binding protein 4	miRNA	mRNA	1	2
+miR-499-5p	Reep1	Mouse	92	receptor accessory protein 1	miRNA	mRNA	1	2
+miR-140-3p	Sub1	Mouse	91	SUB1 homolog (S. cerevisiae)	miRNA	mRNA	1	1
+miR-140-3p	Sucla2	Mouse	91	succinate-Coenzyme A ligase, ADP-forming, beta subunit	miRNA	mRNA	1	2
+miR-140-3p	Zfp967	Mouse	91	zinc finger protein 967	miRNA	mRNA	1	1
+miR-140-3p	P2ry1	Mouse	91	purinergic receptor P2Y, G-protein coupled 1	miRNA	mRNA	1	1
+miR-140-3p	Ubqln2	Mouse	91	ubiquilin 2	miRNA	mRNA	1	1
+miR-140-3p	Rbm7	Mouse	91	RNA binding motif protein 7	miRNA	mRNA	1	1
+miR-15b-5p	Rnf144b	Mouse	91	ring finger protein 144B	miRNA	mRNA	1	3
+miR-15b-5p	Rab11fip1	Mouse	91	RAB11 family interacting protein 1 (class I)	miRNA	mRNA	1	1
+miR-15b-5p	Rab10	Mouse	91	RAB10, member RAS oncogene family	miRNA	mRNA	1	1
+miR-15b-5p	Klc1	Mouse	91	kinesin light chain 1	miRNA	mRNA	1	1
+miR-15b-5p	Btg2	Mouse	91	B cell translocation gene 2, anti-proliferative	miRNA	mRNA	1	2
+miR-15b-5p	Wwp1	Mouse	91	WW domain containing E3 ubiquitin protein ligase 1	miRNA	mRNA	1	1
+miR-15b-5p	Zfhx4	Mouse	91	zinc finger homeodomain 4	miRNA	mRNA	1	3
+miR-15b-5p	Fgf9	Mouse	91	fibroblast growth factor 9	miRNA	mRNA	1	2
+miR-15b-5p	Pnp2	Mouse	91	purine-nucleoside phosphorylase 2	miRNA	mRNA	1	1
+miR-15b-5p	Acvr2a	Mouse	91	activin receptor IIA	miRNA	mRNA	2	2
+miR-15b-5p	Rarb	Mouse	91	retinoic acid receptor, beta	miRNA	mRNA	1	2
+miR-15b-5p	Cdc37l1	Mouse	91	cell division cycle 37-like 1	miRNA	mRNA	1	1
+miR-15b-5p	1700025G04Rik	Mouse	91	RIKEN cDNA 1700025G04 gene	miRNA	mRNA	1	1
+miR-15b-5p	Fbxo21	Mouse	91	F-box protein 21	miRNA	mRNA	1	2
+miR-15b-5p	Plpp1	Mouse	91	phospholipid phosphatase 1	miRNA	mRNA	1	2
+miR-15b-5p	Sall1	Mouse	91	spalt like transcription factor 1	miRNA	mRNA	1	2
+miR-15b-5p	Kbtbd2	Mouse	91	kelch repeat and BTB (POZ) domain containing 2	miRNA	mRNA	2	2
+miR-15b-5p	Son	Mouse	91	Son DNA binding protein	miRNA	mRNA	1	1
+miR-15b-5p	Sec14l1	Mouse	91	SEC14-like lipid binding 1	miRNA	mRNA	1	1
+miR-193b-3p	Cnot6	Mouse	91	CCR4-NOT transcription complex, subunit 6	miRNA	mRNA	1	1
+miR-193b-3p	Fat4	Mouse	91	FAT atypical cadherin 4	miRNA	mRNA	1	1
+miR-199a-3p	Tubgcp3	Mouse	91	tubulin, gamma complex associated protein 3	miRNA	mRNA	1	3
+miR-199a-3p	Fam199x	Mouse	91	family with sequence similarity 199, X-linked	miRNA	mRNA	1	1
+miR-199a-3p	Pawr	Mouse	91	PRKC, apoptosis, WT1, regulator	miRNA	mRNA	1	2
+miR-199a-3p	Runx1	Mouse	91	runt related transcription factor 1	miRNA	mRNA	1	2
+miR-1b-3p	Macrod2	Mouse	91	MACRO domain containing 2	miRNA	mRNA	1	1
+miR-1b-3p	Fam49b	Mouse	91	family with sequence similarity 49, member B	miRNA	mRNA	1	1
+miR-1b-5p	Pdgfrl	Mouse	91	platelet-derived growth factor receptor-like	miRNA	mRNA	1	1
+miR-1b-5p	Ppp1r21	Mouse	91	protein phosphatase 1, regulatory subunit 21	miRNA	mRNA	1	1
+miR-1b-5p	Igf1	Mouse	91	insulin-like growth factor 1	miRNA	mRNA	2	2
+miR-1b-5p	Nup35	Mouse	91	nucleoporin 35	miRNA	mRNA	1	1
+miR-1b-5p	Ikzf5	Mouse	91	IKAROS family zinc finger 5	miRNA	mRNA	1	1
+miR-1b-5p	Psd3	Mouse	91	pleckstrin and Sec7 domain containing 3	miRNA	mRNA	1	1
+miR-1b-5p	Hoxd1	Mouse	91	homeobox D1	miRNA	mRNA	1	1
+miR-214-3p	Med19	Mouse	91	mediator complex subunit 19	miRNA	mRNA	1	3
+miR-214-3p	Pgf	Mouse	91	placental growth factor	miRNA	mRNA	1	2
+miR-214-3p	Exoc3	Mouse	91	exocyst complex component 3	miRNA	mRNA	1	1
+miR-214-3p	Gas7	Mouse	91	growth arrest specific 7	miRNA	mRNA	1	1
+miR-214-3p	Nfatc2	Mouse	91	nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 2	miRNA	mRNA	1	2
+miR-214-3p	1110012L19Rik	Mouse	91	RIKEN cDNA 1110012L19 gene	miRNA	mRNA	1	1
+miR-214-3p	Oxr1	Mouse	91	oxidation resistance 1	miRNA	mRNA	1	1
+miR-214-3p	Slc16a3	Mouse	91	solute carrier family 16 (monocarboxylic acid transporters), member 3	miRNA	mRNA	1	1
+miR-214-3p	Galnt7	Mouse	91	polypeptide N-acetylgalactosaminyltransferase 7	miRNA	mRNA	2	2
+miR-214-3p	0610010K14Rik	Mouse	91	RIKEN cDNA 0610010K14 gene	miRNA	mRNA	1	1
+miR-214-3p	Pcbp2	Mouse	91	poly(rC) binding protein 2	miRNA	mRNA	1	1
+miR-214-3p	Pim1	Mouse	91	proviral integration site 1	miRNA	mRNA	1	2
+miR-214-3p	Rexo1	Mouse	91	REX1, RNA exonuclease 1	miRNA	mRNA	1	1
+miR-214-3p	Naa50	Mouse	91	N(alpha)-acetyltransferase 50, NatE catalytic subunit	miRNA	mRNA	1	3
+miR-214-3p	Afmid	Mouse	91	arylformamidase	miRNA	mRNA	1	1
+miR-214-3p	Scp2d1	Mouse	91	SCP2 sterol-binding domain containing 1	miRNA	mRNA	1	2
+miR-214-5p	Stk35	Mouse	91	serine/threonine kinase 35	miRNA	mRNA	1	1
+miR-29c-3p	Ppm1d	Mouse	91	protein phosphatase 1D magnesium-dependent, delta isoform	miRNA	mRNA	1	1
+miR-29c-3p	Kcna5	Mouse	91	potassium voltage-gated channel, shaker-related subfamily, member 5	miRNA	mRNA	1	1
+miR-29c-3p	Zmiz1	Mouse	91	zinc finger, MIZ-type containing 1	miRNA	mRNA	1	2
+miR-29c-3p	Fstl1	Mouse	91	follistatin-like 1	miRNA	mRNA	1	2
+miR-29c-3p	Fer	Mouse	91	fer (fms/fps related) protein kinase	miRNA	mRNA	1	2
+miR-29c-3p	Iffo1	Mouse	91	intermediate filament family orphan 1	miRNA	mRNA	1	1
+miR-29c-3p	Atp2b4	Mouse	91	ATPase, Ca++ transporting, plasma membrane 4	miRNA	mRNA	1	1
+miR-29c-3p	Samd4	Mouse	91	sterile alpha motif domain containing 4	miRNA	mRNA	1	1
+miR-29c-3p	Sh3pxd2a	Mouse	91	SH3 and PX domains 2A	miRNA	mRNA	1	2
+miR-29c-3p	Frat2	Mouse	91	frequently rearranged in advanced T cell lymphomas 2	miRNA	mRNA	1	2
+miR-29c-3p	Slc31a1	Mouse	91	solute carrier family 31, member 1	miRNA	mRNA	1	1
+miR-29c-3p	Adamts2	Mouse	91	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 2	miRNA	mRNA	1	2
+miR-29c-3p	Fam167a	Mouse	91	family with sequence similarity 167, member A	miRNA	mRNA	1	2
+miR-29c-5p	Grap	Mouse	91	GRB2-related adaptor protein	miRNA	mRNA	1	1
+miR-320-3p	Unkl	Mouse	91	unkempt family like zinc finger	miRNA	mRNA	1	1
+miR-320-3p	Tmem108	Mouse	91	transmembrane protein 108	miRNA	mRNA	1	1
+miR-320-3p	Hipk3	Mouse	91	homeodomain interacting protein kinase 3	miRNA	mRNA	1	2
+miR-320-3p	Ccser1	Mouse	91	coiled-coil serine rich 1	miRNA	mRNA	1	1
+miR-320-3p	Cemip2	Mouse	91	cell migration inducing hyaluronidase 2	miRNA	mRNA	1	2
+miR-320-3p	Sav1	Mouse	91	salvador family WW domain containing 1	miRNA	mRNA	1	1
+miR-320-3p	Evx2	Mouse	91	even-skipped homeobox 2	miRNA	mRNA	1	1
+miR-320-3p	Tbx4	Mouse	91	T-box 4	miRNA	mRNA	1	1
+miR-320-3p	Agfg1	Mouse	91	ArfGAP with FG repeats 1	miRNA	mRNA	1	1
+miR-499-5p	Kitl	Mouse	91	kit ligand	miRNA	mRNA	1	1
+miR-499-5p	Kpna3	Mouse	91	karyopherin (importin) alpha 3	miRNA	mRNA	1	1
+miR-499-5p	Arglu1	Mouse	91	arginine and glutamate rich 1	miRNA	mRNA	1	2
+miR-499-5p	Ralyl	Mouse	91	RALY RNA binding protein-like	miRNA	mRNA	1	1
+miR-499-5p	Zfp975	Mouse	91	zinc finger protein 975	miRNA	mRNA	1	1
+miR-499-5p	Dnm1l	Mouse	91	dynamin 1-like	miRNA	mRNA	1	1
+miR-499-5p	Atf2	Mouse	91	activating transcription factor 2	miRNA	mRNA	1	1
+miR-140-3p	Pik3r3	Mouse	90	phosphoinositide-3-kinase regulatory subunit 3	miRNA	mRNA	1	1
+miR-140-3p	Txlng	Mouse	90	taxilin gamma	miRNA	mRNA	1	1
+miR-140-3p	Nono	Mouse	90	non-POU-domain-containing, octamer binding protein	miRNA	mRNA	1	1
+miR-140-3p	Btg1	Mouse	90	B cell translocation gene 1, anti-proliferative	miRNA	mRNA	1	1
+miR-140-3p	Zc3h6	Mouse	90	zinc finger CCCH type containing 6	miRNA	mRNA	1	2
+miR-140-3p	Sva	Mouse	90	seminal vesicle antigen	miRNA	mRNA	1	1
+miR-140-3p	Kmt5b	Mouse	90	lysine methyltransferase 5B	miRNA	mRNA	1	2
+miR-140-3p	Dip2c	Mouse	90	disco interacting protein 2 homolog C	miRNA	mRNA	1	1
+miR-15b-5p	Cpeb3	Mouse	90	cytoplasmic polyadenylation element binding protein 3	miRNA	mRNA	1	2
+miR-15b-5p	Nrn1	Mouse	90	neuritin 1	miRNA	mRNA	1	2
+miR-15b-5p	Plxnc1	Mouse	90	plexin C1	miRNA	mRNA	1	2
+miR-15b-5p	Zfp449	Mouse	90	zinc finger protein 449	miRNA	mRNA	1	1
+miR-15b-5p	Arhgdia	Mouse	90	Rho GDP dissociation inhibitor (GDI) alpha	miRNA	mRNA	1	2
+miR-15b-5p	Ankrd13b	Mouse	90	ankyrin repeat domain 13b	miRNA	mRNA	2	2
+miR-15b-5p	Pam	Mouse	90	peptidylglycine alpha-amidating monooxygenase	miRNA	mRNA	1	1
+miR-15b-5p	Rubcnl	Mouse	90	RUN and cysteine rich domain containing beclin 1 interacting protein like	miRNA	mRNA	1	1
+miR-15b-5p	Pnoc	Mouse	90	prepronociceptin	miRNA	mRNA	1	1
+miR-15b-5p	Gpatch8	Mouse	90	G patch domain containing 8	miRNA	mRNA	1	2
+miR-15b-5p	Cmpk1	Mouse	90	cytidine monophosphate (UMP-CMP) kinase 1	miRNA	mRNA	1	1
+miR-15b-5p	Stradb	Mouse	90	STE20-related kinase adaptor beta	miRNA	mRNA	1	2
+miR-15b-5p	Onecut2	Mouse	90	one cut domain, family member 2	miRNA	mRNA	2	1
+miR-15b-5p	Xpo7	Mouse	90	exportin 7	miRNA	mRNA	1	2
+miR-15b-5p	Spred1	Mouse	90	sprouty protein with EVH-1 domain 1, related sequence	miRNA	mRNA	1	2
+miR-15b-5p	E2f3	Mouse	90	E2F transcription factor 3	miRNA	mRNA	1	2
+miR-15b-5p	Grm7	Mouse	90	glutamate receptor, metabotropic 7	miRNA	mRNA	1	2
+miR-15b-5p	Eda	Mouse	90	ectodysplasin-A	miRNA	mRNA	1	2
+miR-15b-5p	Akap7	Mouse	90	A kinase (PRKA) anchor protein 7	miRNA	mRNA	1	1
+miR-15b-5p	Pou2f1	Mouse	90	POU domain, class 2, transcription factor 1	miRNA	mRNA	1	2
+miR-15b-5p	Suco	Mouse	90	SUN domain containing ossification factor	miRNA	mRNA	1	2
+miR-15b-5p	Wipi2	Mouse	90	WD repeat domain, phosphoinositide interacting 2	miRNA	mRNA	1	3
+miR-15b-5p	G0s2	Mouse	90	G0/G1 switch gene 2	miRNA	mRNA	1	1
+miR-15b-5p	Zmym2	Mouse	90	zinc finger, MYM-type 2	miRNA	mRNA	1	2
+miR-15b-5p	Islr	Mouse	90	immunoglobulin superfamily containing leucine-rich repeat	miRNA	mRNA	1	2
+miR-15b-5p	Ptprr	Mouse	90	protein tyrosine phosphatase, receptor type, R	miRNA	mRNA	1	2
+miR-193b-3p	Igfbp5	Mouse	90	insulin-like growth factor binding protein 5	miRNA	mRNA	1	1
+miR-199a-3p	Etnk1	Mouse	90	ethanolamine kinase 1	miRNA	mRNA	1	2
+miR-199a-3p	Slitrk6	Mouse	90	SLIT and NTRK-like family, member 6	miRNA	mRNA	1	1
+miR-199a-3p	Acvr2a	Mouse	90	activin receptor IIA	miRNA	mRNA	2	2
+miR-199a-3p	Alx4	Mouse	90	aristaless-like homeobox 4	miRNA	mRNA	1	2
+miR-199a-3p	Cdt1	Mouse	90	chromatin licensing and DNA replication factor 1	miRNA	mRNA	1	2
+miR-199a-3p	Dctn4	Mouse	90	dynactin 4	miRNA	mRNA	1	1
+miR-199a-3p	Col12a1	Mouse	90	collagen, type XII, alpha 1	miRNA	mRNA	1	2
+miR-199a-3p	Zhx1	Mouse	90	zinc fingers and homeoboxes 1	miRNA	mRNA	1	3
+miR-1b-3p	Snrpa	Mouse	90	small nuclear ribonucleoprotein polypeptide A	miRNA	mRNA	1	1
+miR-1b-3p	Gm37013	Mouse	90	predicted gene, 37013	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga6	Mouse	90	protocadherin gamma subfamily A, 6	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhgb6	Mouse	90	protocadherin gamma subfamily B, 6	miRNA	mRNA	1	1
+miR-1b-3p	Keap1	Mouse	90	kelch-like ECH-associated protein 1	miRNA	mRNA	1	1
+miR-1b-3p	Gm38666	Mouse	90	predicted gene, 38666	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhgb5	Mouse	90	protocadherin gamma subfamily B, 5	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhgb2	Mouse	90	protocadherin gamma subfamily B, 2	miRNA	mRNA	1	1
+miR-1b-3p	Gm38667	Mouse	90	predicted gene, 38667	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhgc4	Mouse	90	protocadherin gamma subfamily C, 4	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhgb1	Mouse	90	protocadherin gamma subfamily B, 1	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhgb4	Mouse	90	protocadherin gamma subfamily B, 4	miRNA	mRNA	1	1
+miR-1b-3p	Klrd1	Mouse	90	killer cell lectin-like receptor, subfamily D, member 1	miRNA	mRNA	1	1
+miR-1b-3p	Pcdhga4	Mouse	90	protocadherin gamma subfamily A, 4	miRNA	mRNA	1	1
+miR-1b-3p	Gdpd5	Mouse	90	glycerophosphodiester phosphodiesterase domain containing 5	miRNA	mRNA	1	1
+miR-1b-5p	Tns3	Mouse	90	tensin 3	miRNA	mRNA	1	1
+miR-1b-5p	Smarca5	Mouse	90	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 5	miRNA	mRNA	1	1
+miR-1b-5p	Synpr	Mouse	90	synaptoporin	miRNA	mRNA	1	1
+miR-1b-5p	Stag2	Mouse	90	stromal antigen 2	miRNA	mRNA	2	2
+miR-1b-5p	Apool	Mouse	90	apolipoprotein O-like	miRNA	mRNA	1	1
+miR-1b-5p	Kdm6a	Mouse	90	lysine (K)-specific demethylase 6A	miRNA	mRNA	2	2
+miR-1b-5p	Serpinb9d	Mouse	90	serine (or cysteine) peptidase inhibitor, clade B, member 9d	miRNA	mRNA	1	1
+miR-1b-5p	Srgap1	Mouse	90	SLIT-ROBO Rho GTPase activating protein 1	miRNA	mRNA	1	1
+miR-1b-5p	Zmynd11	Mouse	90	zinc finger, MYND domain containing 11	miRNA	mRNA	1	1
+miR-1b-5p	Rnf214	Mouse	90	ring finger protein 214	miRNA	mRNA	1	1
+miR-1b-5p	Tspan3	Mouse	90	tetraspanin 3	miRNA	mRNA	2	1
+miR-1b-5p	Zfp738	Mouse	90	zinc finger protein 738	miRNA	mRNA	1	1
+miR-214-3p	Mapre1	Mouse	90	microtubule-associated protein, RP/EB family, member 1	miRNA	mRNA	1	2
+miR-214-3p	Tmem248	Mouse	90	transmembrane protein 248	miRNA	mRNA	1	3
+miR-214-3p	Rcsd1	Mouse	90	RCSD domain containing 1	miRNA	mRNA	1	1
+miR-214-3p	Trim66	Mouse	90	tripartite motif-containing 66	miRNA	mRNA	1	2
+miR-214-3p	Tspan11	Mouse	90	tetraspanin 11	miRNA	mRNA	1	2
+miR-214-3p	Tab3	Mouse	90	TGF-beta activated kinase 1/MAP3K7 binding protein 3	miRNA	mRNA	2	1
+miR-214-3p	Zbtb41	Mouse	90	zinc finger and BTB domain containing 41	miRNA	mRNA	1	1
+miR-214-3p	Zfp609	Mouse	90	zinc finger protein 609	miRNA	mRNA	1	2
+miR-214-3p	Cbl	Mouse	90	Casitas B-lineage lymphoma	miRNA	mRNA	1	2
+miR-214-3p	Hnrnpu	Mouse	90	heterogeneous nuclear ribonucleoprotein U	miRNA	mRNA	1	2
+miR-214-3p	Ccdc167	Mouse	90	coiled-coil domain containing 167	miRNA	mRNA	1	2
+miR-214-3p	Mapk8	Mouse	90	mitogen-activated protein kinase 8	miRNA	mRNA	1	1
+miR-214-3p	Clint1	Mouse	90	clathrin interactor 1	miRNA	mRNA	1	1
+miR-214-3p	Qk	Mouse	90	quaking	miRNA	mRNA	1	1
+miR-214-5p	Tfdp1	Mouse	90	transcription factor Dp 1	miRNA	mRNA	1	2
+miR-29c-3p	Stmn2	Mouse	90	stathmin-like 2	miRNA	mRNA	1	2
+miR-29c-3p	Zfp704	Mouse	90	zinc finger protein 704	miRNA	mRNA	1	1
+miR-29c-3p	Lpl	Mouse	90	lipoprotein lipase	miRNA	mRNA	1	1
+miR-29c-3p	Arrdc3	Mouse	90	arrestin domain containing 3	miRNA	mRNA	1	1
+miR-29c-3p	Dcun1d4	Mouse	90	DCN1, defective in cullin neddylation 1, domain containing 4 (S. cerevisiae)	miRNA	mRNA	1	1
+miR-29c-3p	Ppm1e	Mouse	90	protein phosphatase 1E (PP2C domain containing)	miRNA	mRNA	1	2
+miR-29c-3p	Hormad1	Mouse	90	HORMA domain containing 1	miRNA	mRNA	1	1
+miR-29c-3p	Mcl1	Mouse	90	myeloid cell leukemia sequence 1	miRNA	mRNA	1	1
+miR-29c-3p	Carmil1	Mouse	90	capping protein regulator and myosin 1 linker 1	miRNA	mRNA	1	1
+miR-29c-3p	Camk4	Mouse	90	calcium/calmodulin-dependent protein kinase IV	miRNA	mRNA	1	1
+miR-29c-3p	Gpr37	Mouse	90	G protein-coupled receptor 37	miRNA	mRNA	1	1
+miR-29c-3p	Tcf4	Mouse	90	transcription factor 4	miRNA	mRNA	1	1
+miR-29c-3p	Grip1	Mouse	90	glutamate receptor interacting protein 1	miRNA	mRNA	1	1
+miR-29c-3p	Dennd1b	Mouse	90	DENN/MADD domain containing 1B	miRNA	mRNA	1	2
+miR-29c-3p	Mfap5	Mouse	90	microfibrillar associated protein 5	miRNA	mRNA	1	1
+miR-29c-3p	Crispld1	Mouse	90	cysteine-rich secretory protein LCCL domain containing 1	miRNA	mRNA	1	2
+miR-29c-3p	Plp1	Mouse	90	proteolipid protein (myelin) 1	miRNA	mRNA	1	1
+miR-29c-3p	Eml6	Mouse	90	echinoderm microtubule associated protein like 6	miRNA	mRNA	1	2
+miR-29c-3p	Unc13b	Mouse	90	unc-13 homolog B	miRNA	mRNA	1	1
+miR-29c-5p	Emilin1	Mouse	90	elastin microfibril interfacer 1	miRNA	mRNA	1	1
+miR-320-3p	Rab14	Mouse	90	RAB14, member RAS oncogene family	miRNA	mRNA	1	1
+miR-320-3p	Scai	Mouse	90	suppressor of cancer cell invasion	miRNA	mRNA	1	1
+miR-320-3p	Pdzd8	Mouse	90	PDZ domain containing 8	miRNA	mRNA	1	2
+miR-320-3p	Rc3h1	Mouse	90	RING CCCH (C3H) domains 1	miRNA	mRNA	2	2
+miR-320-3p	Rai2	Mouse	90	retinoic acid induced 2	miRNA	mRNA	1	2
+miR-320-3p	Ttll4	Mouse	90	tubulin tyrosine ligase-like family, member 4	miRNA	mRNA	1	1
+miR-499-5p	Osbpl1a	Mouse	90	oxysterol binding protein-like 1A	miRNA	mRNA	1	1
+miR-499-5p	Ptar1	Mouse	90	protein prenyltransferase alpha subunit repeat containing 1	miRNA	mRNA	1	1
+miR-499-5p	Cdh2	Mouse	90	cadherin 2	miRNA	mRNA	1	1
+miR-499-5p	Stc1	Mouse	90	stanniocalcin 1	miRNA	mRNA	1	2
+miR-499-5p	Rfesd	Mouse	90	Rieske (Fe-S) domain containing	miRNA	mRNA	1	1
+miR-499-5p	Fam184a	Mouse	90	family with sequence similarity 184, member A	miRNA	mRNA	1	1
+miR-499-5p	Sinhcaf	Mouse	90	SIN3-HDAC complex associated factor	miRNA	mRNA	2	3
+miR-499-5p	Vcpip1	Mouse	90	valosin containing protein (p97)/p47 complex interacting protein 1	miRNA	mRNA	1	1
+miR-499-5p	Klrg2	Mouse	90	killer cell lectin-like receptor subfamily G, member 2	miRNA	mRNA	1	1
+miR-499-5p	Rffl	Mouse	90	ring finger and FYVE like domain containing protein	miRNA	mRNA	1	1
